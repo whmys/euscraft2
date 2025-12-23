@@ -192,3 +192,43 @@ tmux att
 cat logs/latest.log 
 tmux att
 exit
+./start.sh
+sud apt-get install git
+sudo apt-get install git
+echo "# euscraft2" >> README.md
+git init
+git add README.md
+git commit -m "first commit!"
+git config --global user.email "willcolewhite@gmail.com"
+git config --global user.email "William"
+git config --global user.email "willcolewhite@gmail.com"
+git config --global user.name "William"
+git commit -m "first commit!"
+git branch -M main
+git remote add origin git@github.com:whmys/euscraft2.git
+git push -u origin main
+git remote add origin https://github.com/whmys/euscraft2.git
+git remote remove origin
+git remote add origin https://github.com/whmys/euscraft2.git
+git push -u origin main
+git add ~
+touch .gitignore
+ls
+nano .gitignore 
+git add .gitignore 
+git commit -m "added a gitignore"
+git push -u origin main
+git add ~
+git add ~ -v
+git commit -m "added the whole server config data plus mods"
+git push -u origin main
+cd eus-2
+ls
+curl -OJ https://github.com/whmys/euscraft2/raw/refs/heads/main/cairn-pack-resources.zip
+ls
+rm cairn-pack-resources.zip 
+cd ..
+ls
+nano server.properties 
+tmux att
+./start.sh 
