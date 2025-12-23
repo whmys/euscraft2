@@ -1,0 +1,309 @@
+[06:18:20] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.3
+[06:18:21] [main/INFO]: Loading 96 mods:
+	- bluemap 5.15
+	   |-- com_flowpowered_flow-math 1.0.3
+	   \-- de_bluecolored_bluenbt 3.5.0
+	- chunky 1.4.55
+	- dcintegration-fabric 3.1.0.1
+	   |-- de_erdbeerbaerlp_dcintegration_common 3.1.0
+	   \-- placeholder-api 2.8.0+1.21.9
+	- distanthorizons 2.4.2-b
+	   |-- fabric-api-base 1.0.5+4ebb5c0853
+	   |-- fabric-entity-events-v1 3.0.5+4ebb5c0853
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f53
+	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c0853
+	   |-- fabric-rendering-v1 16.2.5+1fb1cde953
+	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f53
+	   |-- fabric-resource-loader-v1 1.0.10+78c8b46653
+	   \-- fabric-screen-api-v1 3.1.7+4ebb5c0853
+	- fabric-api 0.139.5+1.21.11
+	   |-- fabric-api-lookup-api-v1 1.6.113+1fb1cde93e
+	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+	   |-- fabric-data-attachment-api-v1 1.8.43+1fb1cde93e
+	   |-- fabric-data-generation-api-v1 23.3.0+ae1056283e
+	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+	   |-- fabric-events-interaction-v0 4.0.44+1fb1cde93e
+	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
+	   |-- fabric-object-builder-api-v1 21.1.38+4fc5413f3e
+	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
+	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
+	   |-- fabric-registry-sync-v0 6.2.4+4ebb5c083e
+	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+	   |-- fabric-rendering-v1 16.2.6+1fb1cde93e
+	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+	   |-- fabric-screen-handler-api-v1 1.3.160+4fc5413f3e
+	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+	   |-- fabric-transfer-api-v1 6.0.24+4fc5413f3e
+	   \-- fabric-transitive-access-wideners-v1 7.0.8+0107c3da3e
+	- fabricloader 0.18.3
+	   \-- mixinextras 0.5.0
+	- floodgate 2.2.6-SNAPSHOT
+	   |-- aopalliance_aopalliance 1.0
+	   |-- cloud 2.0.0-beta.15
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.14
+	   |    |-- org_incendo_cloud-core 2.0.0
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.15
+	   |    \-- org_incendo_cloud-services 2.0.0
+	   |-- com_google_guava_failureaccess 1.0.1
+	   |-- fabric-permissions-api-v0 0.6.1
+	   |-- jakarta_inject_jakarta_inject-api 2.0.1
+	   |-- javax_inject_javax_inject 1
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_geysermc_geyser_common_unshaded 2.2.1-SNAPSHOT
+	   |-- org_java-websocket_java-websocket 1.5.2
+	   \-- org_lanternpowered_lmbda 2.0.0
+	- geyser-fabric 2.9.2-SNAPSHOT
+	   |-- com_google_errorprone_error_prone_annotations 2.27.0
+	   |-- com_nukkitx_natives 1.0.3
+	   |-- io_airlift_aircompressor 0.27
+	   |-- io_netty_netty-codec-haproxy 4.2.7
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_kyori_adventure-api 4.25.0
+	   |-- net_kyori_adventure-key 4.25.0
+	   |-- net_kyori_adventure-nbt 4.25.0
+	   |-- net_kyori_adventure-text-serializer-commons 4.25.0
+	   |-- net_kyori_adventure-text-serializer-gson 4.25.0
+	   |-- net_kyori_adventure-text-serializer-json 4.25.0
+	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.25.0
+	   |-- net_kyori_adventure-text-serializer-legacy 4.25.0
+	   |-- net_kyori_adventure-text-serializer-plain 4.25.0
+	   |-- net_kyori_examination-api 1.3.0
+	   |-- net_kyori_examination-string 1.3.0
+	   |-- net_kyori_option 1.1.0
+	   |-- net_lenni0451_commons_gson 1.9.0
+	   |-- net_lenni0451_commons_httpclient 1.9.0
+	   |-- net_raphimc_minecraftauth 5.0.0
+	   |-- org_bitbucket_b_c_jose4j 0.9.6
+	   |-- org_bstats_bstats-base 3.1.0
+	   |-- org_cloudburstmc_math_api 2.0
+	   |-- org_cloudburstmc_math_immutable 2.0
+	   |-- org_cloudburstmc_nbt 3.0.3
+	   |-- org_geysermc_api_base-api 1.0.2
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_lanternpowered_lmbda 2.0.0
+	   \-- org_yaml_snakeyaml 2.2
+	- java 21
+	- lithium 0.21.1+mc1.21.11
+	- minecraft 1.21.11
+	- terralith 2.5.14
+[06:18:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/eusminecraftserver2/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[06:18:21] [main/INFO]: Compatibility level set to JAVA_17
+[06:18:21] [main/INFO]: Compatibility level set to JAVA_21
+[06:18:21] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[06:18:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[06:18:34] [main/WARN]: en_ is not a supported Floodgate language.
+[06:18:35] [main/INFO]: Loading extensions...
+[06:18:35] [main/INFO]: Loaded 0 extension(s)
+[06:18:36] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[06:18:36] [main/INFO]: Running library validation...
+[06:18:37] [main/INFO]: Garbage collectors: [G1 Young Generation, G1 Concurrent GC, G1 Old Generation]
+[06:18:37] [main/WARN]: Distant Horizons: G1 Garbage collector detected. 
+This garbage collector can cause FPS stuttering. 
+It's recommended to use a concurrent garbage collector 
+like ZGC (Java 21+) or Shenandoah (Java 8 through 17) for a smoother experience. 
+
+[06:18:37] [main/INFO]: Distant Horizons, Version: 2.4.2-b
+[06:18:37] [main/INFO]: Registering Fabric Server Events
+[06:18:37] [main/INFO]: Skipping mod compatibility accessor for: [starlight]
+[06:18:37] [main/INFO]: Skipping mod compatibility accessor for: [optifine]
+[06:18:37] [main/INFO]: Skipping mod compatibility accessor for: [bclib]
+[06:18:37] [main/INFO]: Skipping mod compatibility accessor for: [c2me]
+[06:18:37] [main/INFO]: Skipping mod compatibility accessor for: [iris]
+[06:18:37] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
+[06:18:37] [main/WARN]: Invalid sha1 for resource-pack-sha1
+[06:18:37] [main/WARN]: resource-pack-id missing, using default of 7970b817-098a-3427-9218-6c78bac439a3
+[06:18:37] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[06:18:42] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
+[06:18:42] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
+[06:18:42] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element graves:entities/player of type minecraft:loot_table
+[06:18:42] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
+[06:18:43] [Worker-Main-1/ERROR]: Couldn't parse data file 'blazeandcave:challenges/explorer_of_worlds' from 'blazeandcave:advancement/challenges/explorer_of_worlds.json': DataResult.Error['Missing tag: 'blazeandcave:end_barrens' in 'minecraft:worldgen/biome'; Missing tag: 'blazeandcave:end_midlands' in 'minecraft:worldgen/biome' missed input: {"end_midlands":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:any_of","terms":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"biomes":"#blazeandcave:end_midlands"}}}]},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}},"end_barrens":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:any_of","terms":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"biomes":"#blazeandcave:end_barrens"}}}]},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}}}': class_161[parent=Optional[blazeandcave:challenges/im_in_space], display=Optional[net.minecraft.class_185@3a09e99d], rewards=class_170[experience=0, loot=[], recipes=[], function=Optional[net.minecraft.class_2159@a1ad9cf]], criteria={deep_frozen_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@39382bc0]]], savanna_plateau=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4e9f42f5]]], grove=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@12973e48]]], desert=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4ef4c8db]]], deep_cold_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@366a8cee]]], frozen_peaks=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@256f83c]]], old_growth_spruce_taiga=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@2918e340]]], mangrove_swamp=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@414244a8]]], forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@23adad92]]], frozen_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@168f26c3]]], eroded_badlands=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7863d5b1]]], end_highlands=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@2bd7b911]]], lush_caves=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@655850c4]]], basalt_deltas=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@a0ecb92]]], stony_shore=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@6ca6593f]]], lukewarm_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7aaf7a8b]]], jagged_peaks=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@5d56db6a]]], frozen_river=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@2178d909]]], stony_peaks=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7f4913b8]]], soul_sand_valley=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7e3345f8]]], snowy_slopes=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@15554cdf]]], warped_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@72027fed]]], snowy_beach=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@45e176c6]]], sparse_jungle=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@2119e707]]], jungle=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@1e15744f]]], warm_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7f898d77]]], old_growth_pine_taiga=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@31908306]]], snowy_taiga=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@5fdf6bec]]], windswept_hills=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@6a5dcb54]]], wooded_badlands=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@590c015d]]], dripstone_caves=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@6cb131c9]]], deep_lukewarm_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4815b7b8]]], windswept_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4c16d285]]], swamp=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@752934b3]]], ice_spikes=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@10f37ca6]]], nether_wastes=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@75beb177]]], beach=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@fc6c7bf]]], cold_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@3376f658]]], meadow=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@386bbadc]]], small_end_islands=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@38de91af]]], end_barrens=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@19c5234]]], bamboo_jungle=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@55cb069]]], plains=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@60044744]]], windswept_gravelly_hills=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@2c9bf102]]], deep_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4ff51b57]]], old_growth_birch_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@2f4a2538]]], deep_dark=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@6d3669f2]]], cherry_grove=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@1e5686b7]]], pale_garden=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@791e1989]]], snowy_plains=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7838077]]], taiga=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@59a4008c]]], crimson_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@73ed5631]]], ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7a36db94]]], mushroom_fields=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@61ad6c9d]]], sunflower_plains=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@1874a044]]], flower_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@13121a5]]], badlands=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4d17b06c]]], end_midlands=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@47d4e4d7]]], dark_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7a1f0ae9]]], windswept_savanna=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@72ab3006]]], savanna=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@24f6aef]]], river=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@62ddd42d]]], birch_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@6017c2dd]]], the_end=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4b97e5d9]]]}, requirements=[[river], [swamp], [desert], [snowy_taiga], [badlands], [forest], [stony_shore], [snowy_plains], [wooded_badlands], [savanna], [plains], [frozen_river], [old_growth_pine_taiga], [snowy_beach], [deep_ocean], [sparse_jungle], [ocean], [windswept_hills], [jungle], [beach], [savanna_plateau], [dark_forest], [taiga], [birch_forest], [mushroom_fields], [windswept_forest], [cold_ocean], [warm_ocean], [lukewarm_ocean], [frozen_ocean], [deep_frozen_ocean], [deep_lukewarm_ocean], [deep_cold_ocean], [bamboo_jungle], [sunflower_plains], [windswept_gravelly_hills], [flower_forest], [ice_spikes], [old_growth_birch_forest], [old_growth_spruce_taiga], [windswept_savanna], [eroded_badlands], [meadow], [grove], [snowy_slopes], [frozen_peaks], [jagged_peaks], [stony_peaks], [lush_caves], [dripstone_caves], [nether_wastes], [crimson_forest], [warped_forest], [soul_sand_valley], [basalt_deltas], [the_end], [small_end_islands], [end_highlands], [end_midlands], [end_barrens], [mangrove_swamp], [deep_dark], [cherry_grove], [pale_garden]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[translation{key='Explorer of Worlds', args=[]}[style={hoverEvent=class_10613[value=translation{key='Explorer of Worlds', args=[]}[style={color=dark_purple}, siblings=[literal{
+}, translation{key='Discover every vanilla biome from every dimension', args=[]}[style={color=#FF2A2A}]]]]}]]}[style={color=dark_purple}]]]]
+[06:18:45] [main/INFO]: Loaded 1844 recipes
+[06:18:45] [main/ERROR]: Couldn't load advancements: [blazeandcave:technical/biome_branch2_end, blazeandcave:adventure/castle_of_hrrms, blazeandcave:biomes/highlander, blazeandcave:biomes/smarter_than_the_average_bear, blazeandcave:biomes/warm_feet, blazeandcave:biomes/high_feet, blazeandcave:mining/oresome, blazeandcave:adventure/raidin_master, blazeandcave:biomes/one_with_the_forest, blazeandcave:adventure/remote_shelter, blazeandcave:biomes/skylanders, blazeandcave:biomes/land_of_icicles, blazeandcave:biomes/terralithic, blazeandcave:biomes/pretty_in_purple, blazeandcave:biomes/over_the_moon, blazeandcave:adventure/totally_not_terraria, blazeandcave:biomes/aesthetic, blazeandcave:technical/biome_branch1_end, blazeandcave:biomes/o_land_o_bloom, blazeandcave:biomes/one_small_steppe_for_man, blazeandcave:biomes/master_spelunker, blazeandcave:challenges/i_am_loot, blazeandcave:adventure/a_journey_begins, blazeandcave:biomes/a_grassy_nature, blazeandcave:adventure/under_the_ice, blazeandcave:biomes/eruption_in_the_air, blazeandcave:biomes/cold_feet, blazeandcave:biomes/wet_feet, blazeandcave:biomes/alpha_days, blazeandcave:biomes/bushranger, blazeandcave:adventure/spire_of_ice, blazeandcave:biomes/overgrown, minecraft:adventure/adventuring_time, blazeandcave:biomes/a_cliffhanger, blazeandcave:biomes/the_world_is_your_canvas, blazeandcave:biomes/choco_mountain, blazeandcave:biomes/the_boreal_deal, blazeandcave:adventure/expedition_of_discovery]
+[06:18:45] [main/INFO]: Loaded 1898 advancements
+[06:18:46] [main/INFO]: Applied 0 biome modifications to 0 of 171 new biomes in 2.923 ms
+[06:18:46] [Server thread/INFO]: Initialising config for [DistantHorizons]
+[06:18:46] [Server thread/INFO]: [DistantHorizons] Config initialised
+[06:18:46] [Server thread/WARN]: Multiple potential preset options [LOW_IMPACT, BALANCED], defaulting to the first one.
+[06:18:46] [Server thread/INFO]: Applying config to loggers
+[06:18:46] [Server thread/INFO]: Running Delayed setup...
+[06:18:46] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[06:18:46] [Server thread/INFO]: Checking for Distant Horizons update
+[06:18:46] [Server thread/INFO]: New version (2.4.3-b) of Distant Horizons is available
+[06:18:46] [Server thread/INFO]: Download link: https://cdn.modrinth.com/data/uCdwusMi/versions/OmG1jkba/DistantHorizons-2.4.3-b-1.21.11-fabric-neoforge.jar
+[06:18:46] [Server thread/INFO]: Distant Horizons server Initialized at 
+[06:18:46] [Server thread/INFO]: Waiting for JDA to initialize to send starting message... (max 5 seconds before skipping)
+[06:18:47] [DiscordIntegration Launch Thread/INFO]: Login Successful!
+[06:18:47] [JDA MainWS-WriteThread/INFO]: Connected to WebSocket
+[06:18:48] [JDA MainWS-ReadThread/INFO]: Finished Loading!
+[06:18:48] [DiscordIntegration Launch Thread/INFO]: Bot ready
+[06:18:48] [DiscordIntegration Launch Thread/INFO]: Loading DiscordIntegration Addons...
+[06:18:48] [DiscordIntegration Launch Thread/INFO]: Addon loading complete!
+[06:18:48] [DiscordIntegration Launch Thread/INFO]: Loading Linking Database...
+[06:18:48] [DiscordIntegration Launch Thread/INFO]: Linking Database initialized!
+[06:18:49] [DH-ApplyConfigPresetTimer/WARN]: Multiple potential preset options [LOW_IMPACT, BALANCED], defaulting to the first one.
+[06:18:49] [Server thread/INFO]: Starting to register custom commands from config...
+[06:18:49] [Server thread/INFO]: Finished registering! Registered 8 commands
+[06:18:49] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[06:18:49] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[06:18:49] [Server thread/INFO]: Loading properties
+[06:18:49] [Server thread/INFO]: Default game type: SURVIVAL
+[06:18:49] [Server thread/INFO]: Generating keypair
+[06:18:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:18:50] [Server thread/INFO]: Preparing level "eus-2"
+[06:18:51] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[06:18:51] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@overworld}] at [[LocalSaveStructure@(./eus-2/data)]].
+[06:18:51] [DH-Request Module Ticker [minecraft@@overworld] Thread[0]/INFO]: Batch Chunk Generator initialized
+[06:18:51] [DH-Request Module Ticker [minecraft@@overworld] Thread[0]/INFO]: Creating world gen queue
+[06:18:51] [DH-Request Module Ticker [minecraft@@overworld] Thread[0]/INFO]: Created world gen queue
+[06:18:51] [DH-Request Module Ticker [minecraft@@overworld] Thread[0]/INFO]: Set world gen queue for level [minecraft@@overworld].
+[06:18:51] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[06:18:51] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@the_nether}] at [[LocalSaveStructure@(./eus-2/DIM-1/data;./eus-2/data)]].
+[06:18:51] [DH-Request Module Ticker [minecraft@@the_nether] Thread[0]/INFO]: Batch Chunk Generator initialized
+[06:18:51] [DH-Request Module Ticker [minecraft@@the_nether] Thread[0]/INFO]: Creating world gen queue
+[06:18:51] [DH-Request Module Ticker [minecraft@@the_nether] Thread[0]/INFO]: Created world gen queue
+[06:18:51] [DH-Request Module Ticker [minecraft@@the_nether] Thread[0]/INFO]: Set world gen queue for level [minecraft@@the_nether].
+[06:18:51] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[06:18:51] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@the_end}] at [[LocalSaveStructure@(./eus-2/DIM-1/data;./eus-2/DIM1/data;./eus-2/data)]].
+[06:18:51] [DH-Request Module Ticker [minecraft@@the_end] Thread[0]/INFO]: Batch Chunk Generator initialized
+[06:18:51] [DH-Request Module Ticker [minecraft@@the_end] Thread[0]/INFO]: Creating world gen queue
+[06:18:51] [DH-Request Module Ticker [minecraft@@the_end] Thread[0]/INFO]: Created world gen queue
+[06:18:51] [DH-Request Module Ticker [minecraft@@the_end] Thread[0]/INFO]: Set world gen queue for level [minecraft@@the_end].
+[06:18:51] [Server thread/INFO]: Loading 0 persistent chunks...
+[06:18:51] [Server thread/INFO]: Preparing spawn area: 100%
+[06:18:51] [Server thread/INFO]: Time elapsed: 13 ms
+[06:18:51] [Server thread/INFO]: Done (1.604s)! For help, type "help"
+[06:18:51] [BlueMap-Plugin-Loading/INFO]: Loading BlueMap...
+[06:18:52] [Server thread/INFO]: Took 60ms to boot Floodgate
+[06:18:52] [Server thread/INFO]: ******************************************
+[06:18:52] [Server thread/INFO]: 
+[06:18:52] [Server thread/INFO]: Loading Geyser version 2.9.2-b1007 (git-master-9a1d425)
+[06:18:52] [Server thread/INFO]: 
+[06:18:52] [Server thread/INFO]: ******************************************
+[06:18:52] [BlueMap-Plugin-Loading/INFO]: Loading resources...
+[06:18:59] [BlueMap-Plugin-Loading/INFO]: Resources loaded.
+[06:19:00] [BlueMap-Plugin-Loading/INFO]: Initializing Storage: 'file' (Type: 'bluemap:file')
+[06:19:00] [BlueMap-Plugin-Loading/INFO]: Loading map 'eus_2'...
+[06:19:01] [BlueMap-Plugin-Loading/INFO]: Loading map 'eus_2_the_nether'...
+[06:19:02] [BlueMap-Plugin-Loading/INFO]: Loading map 'eus_2_the_end'...
+[06:19:03] [BlueMap-Plugin-Loading/INFO]: WebServer bound to all network interfaces on port 8100
+[06:19:03] [Thread-25/INFO]: WebServer started.
+[06:19:03] [BlueMap-Plugin-Loading/INFO]: BlueMap loaded!
+[06:19:05] [GeyserServer-3-1/INFO]: Started Geyser on UDP port 19132
+[06:19:05] [Server thread/INFO]: Done (13.192s)! Run /geyser help for help!
+[06:19:05] [Server thread/INFO]: Started
+[06:19:06] [DiscordIntegration-Core WorkerThread/INFO]: No need to regenerate local commands
+[06:19:06] [DiscordIntegration-Core WorkerThread/INFO]: Regenerating global commands...
+[06:19:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14199ms or 283 ticks behind
+[06:19:06] [ForkJoinPool.commonPool-worker-1/INFO]: Added command list with ID 1452908358494453881
+[06:19:06] [ForkJoinPool.commonPool-worker-1/INFO]: Added command uptime with ID 1452908358494453882
+[06:19:06] [ForkJoinPool.commonPool-worker-1/INFO]: Added command settings with ID 1452908358494453883
+[06:19:06] [ForkJoinPool.commonPool-worker-1/INFO]: Added command linkcheck with ID 1452908358494453884
+[06:19:06] [ForkJoinPool.commonPool-worker-1/INFO]: Added command link with ID 1452908358494453885
+[06:19:06] [ForkJoinPool.commonPool-worker-1/INFO]: Added command kick with ID 1452908358494453886
+[06:19:06] [ForkJoinPool.commonPool-worker-1/INFO]: Added command stop with ID 1452908358494453887
+[06:19:06] [ForkJoinPool.commonPool-worker-1/INFO]: Added command kill with ID 1452908358494453888
+[06:20:06] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[06:20:45] [User Authenticator #1/INFO]: UUID of player Whmys is a8541b6e-1a1c-4e37-a901-5e5d499a6379
+[06:20:48] [Server thread/INFO]: Whmys[/70.72.202.55:53370] logged in with entity id 41 at (852.2026499677802, 141.0, -110.3829574938673)
+[06:20:48] [Server thread/INFO]: Player [Whmys] joined.
+[06:20:48] [Server thread/INFO]: Whmys joined the game
+[06:20:54] [JDA MainWS-ReadThread/INFO]: [DISCORD] <Will> hello whmys
+[06:20:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3991ms or 79 ticks behind
+[06:21:01] [Server thread/INFO]: JSON-Element: "heloo!"
+[06:21:01] [Server thread/INFO]: <Whmys> heloo!
+[06:21:13] [Server thread/INFO]: [Whmys: Triggered [Homes]]
+[06:22:07] [Server thread/INFO]: [Whmys: Triggered [Home] (set value to 1)]
+[06:22:19] [Server thread/INFO]: [Whmys: Triggered [Set Home]]
+[06:22:47] [Server thread/INFO]: [Whmys: Triggered [Home]]
+[06:22:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28155ms or 563 ticks behind
+[06:23:25] [Server thread/INFO]: [Whmys: Triggered [Set Home]]
+[06:23:32] [Server thread/INFO]: [Whmys: Triggered [Home]]
+[06:23:39] [Server thread/INFO]: [Whmys: Triggered [Homes]]
+[06:23:54] [Server thread/INFO]: [Whmys: Triggered [Home] (set value to 2)]
+[06:23:56] [Server thread/INFO]: [Whmys: Triggered [Home] (set value to 1)]
+[06:24:05] [Server thread/INFO]: [Whmys: Triggered [Home] (added 2 to value)]
+[06:24:07] [Server thread/INFO]: [Whmys: Triggered [Home] (added 1 to value)]
+[06:24:10] [Server thread/INFO]: [Whmys: Triggered [Home] (added 1 to value)]
+[06:24:18] [Server thread/INFO]: [Whmys: Triggered [Set Home] (added 2 to value)]
+[06:24:29] [Server thread/INFO]: [Whmys: Running function homes:config]
+[06:24:50] [Server thread/INFO]: [Whmys: Set [Homes Config] for #delay to 20]
+[06:24:58] [Server thread/INFO]: [Whmys: Triggered [Home]]
+[06:25:31] [JDA MainWS-ReadThread/INFO]: [DISCORD] <Will> time set day
+[06:25:48] [JDA MainWS-ReadThread/INFO]: [DISCORD] <Will> /time set day
+[06:26:59] [Server thread/INFO]: [Whmys: Stopping the server]
+[06:26:59] [Server thread/INFO]: BlueMap unloaded!
+[06:26:59] [Server thread/INFO]: Shutting down Geyser.
+[06:26:59] [Server thread/INFO]: Geyser shutdown successfully.
+[06:27:00] [WebSocketConnectReadThread-134/INFO]: The skin uploader has been closed
+[06:27:01] [Server thread/INFO]: Stopping server
+[06:27:01] [Server thread/INFO]: Saving players
+[06:27:01] [Netty Epoll IO #1/INFO]: Player [Whmys] disconnected.
+[06:27:01] [Server thread/INFO]: Whmys lost connection: Server closed
+[06:27:01] [Server thread/INFO]: Whmys left the game
+[06:27:01] [Server thread/INFO]: Saving worlds
+[06:27:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[eus-2]'/minecraft:overworld
+[06:27:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[eus-2]'/minecraft:the_nether
+[06:27:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[eus-2]'/minecraft:the_end
+[06:27:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (eus-2): All chunks are saved
+[06:27:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:27:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:27:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:27:03] [Server thread/INFO]: Closing world gen queue
+[06:27:03] [Server thread/INFO]: Closing WorldGenerationQueue...
+[06:27:03] [Server thread/INFO]: Shutting down world generator thread pool...
+[06:27:03] [Server thread/INFO]: World generator thread pool shutdown with [0] incomplete tasks.
+[06:27:03] [Server thread/INFO]: [BatchGenerator] shutting down...
+[06:27:03] [Server thread/INFO]: Closing [BatchGenerationEnvironment]
+[06:27:03] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[06:27:03] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@overworld}].
+[06:27:03] [Server thread/INFO]: Closing world gen queue
+[06:27:03] [Server thread/INFO]: Closing WorldGenerationQueue...
+[06:27:03] [Server thread/INFO]: Shutting down world generator thread pool...
+[06:27:03] [Server thread/INFO]: World generator thread pool shutdown with [0] incomplete tasks.
+[06:27:03] [Server thread/INFO]: [BatchGenerator] shutting down...
+[06:27:03] [Server thread/INFO]: Closing [BatchGenerationEnvironment]
+[06:27:03] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[06:27:03] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@the_nether}].
+[06:27:03] [Server thread/INFO]: Closing world gen queue
+[06:27:03] [Server thread/INFO]: Closing WorldGenerationQueue...
+[06:27:03] [Server thread/INFO]: Shutting down world generator thread pool...
+[06:27:03] [Server thread/INFO]: World generator thread pool shutdown with [0] incomplete tasks.
+[06:27:03] [Server thread/INFO]: [BatchGenerator] shutting down...
+[06:27:03] [Server thread/INFO]: Closing [BatchGenerationEnvironment]
+[06:27:03] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[06:27:03] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@the_end}].
+[06:27:03] [Server thread/INFO]: Unloading addons...
+[06:27:03] [Server thread/INFO]: Unloaded addons
+[06:27:03] [Server thread/INFO]: Unloading instance: net.dv8tion.jda.internal.JDAImpl@577f5610
+[06:27:03] [Server thread/INFO]: Unloading listener: de.erdbeerbaerlp.dcintegration.common.DiscordEventListener@4674cb08
+[06:27:03] [Server thread/INFO]: Waiting for JDA to shut-down...
+[06:27:03] [Server thread/INFO]: JDA shut-down gracefully
+[06:27:03] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[06:27:03] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[06:27:03] [Server thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[06:27:03] [Server thread/INFO]: Closing all [3] database connections...
+[06:27:03] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./eus-2/data/DistantHorizons.sqlite]
+[06:27:03] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./eus-2/DIM-1/data/DistantHorizons.sqlite]
+[06:27:03] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./eus-2/DIM1/data/DistantHorizons.sqlite]
