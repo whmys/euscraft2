@@ -1,0 +1,85 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:anvil": 2,
+      "minecraft:carved_pumpkin": 128,
+      "minecraft:enchanted_book": 29,
+      "minecraft:armor_stand": 1,
+      "minecraft:dirt": 1,
+      "minecraft:netherite_spear": 2,
+      "minecraft:wildflowers": 3,
+      "minecraft:player_head": 26,
+      "minecraft:spyglass": 4,
+      "minecraft:netherite_chestplate": 1,
+      "minecraft:repeating_command_block": 4,
+      "minecraft:firework_rocket": 1,
+      "minecraft:grass_block": 1,
+      "minecraft:oak_slab": 2,
+      "minecraft:netherite_leggings": 2,
+      "minecraft:elytra": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:firework_rocket": 192,
+      "minecraft:firework_star": 64
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1,
+      "minecraft:wildflowers": 1,
+      "minecraft:oak_slab": 1
+    },
+    "minecraft:used": {
+      "minecraft:player_head": 1,
+      "minecraft:netherite_sword": 17,
+      "minecraft:mace": 4,
+      "minecraft:firework_rocket": 2885,
+      "minecraft:stone": 33,
+      "minecraft:elytra": 1,
+      "minecraft:repeating_command_block": 1,
+      "minecraft:villager_spawn_egg": 3,
+      "minecraft:crafting_table": 1,
+      "minecraft:spyglass": 57,
+      "minecraft:spawner": 1,
+      "minecraft:anvil": 1,
+      "minecraft:smooth_basalt": 2,
+      "minecraft:crossbow": 13,
+      "minecraft:calcite": 1,
+      "minecraft:netherite_spear": 21,
+      "minecraft:dirt": 7
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:talked_to_villager": 8,
+      "minecraft:time_since_rest": 10319,
+      "minecraft:walk_one_cm": 85995,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 17007,
+      "minecraft:mob_kills": 6,
+      "minecraft:damage_taken": 118016,
+      "minecraft:play_time": 64550,
+      "minecraft:damage_dealt": 4136,
+      "minecraft:jump": 527,
+      "minecraft:time_since_death": 10278,
+      "minecraft:aviate_one_cm": 2976801,
+      "minecraft:sprint_one_cm": 46622,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 19756,
+      "minecraft:total_world_time": 64550,
+      "minecraft:fly_one_cm": 162970,
+      "minecraft:interact_with_anvil": 3,
+      "minecraft:walk_on_water_one_cm": 1902,
+      "minecraft:crouch_one_cm": 1115,
+      "minecraft:sneak_time": 784,
+      "minecraft:deaths": 10,
+      "minecraft:player_kills": 5
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 10
+    },
+    "minecraft:killed": {
+      "minecraft:wolf": 1,
+      "minecraft:villager": 5,
+      "minecraft:player": 5
+    }
+  },
+  "DataVersion": 4671
+}

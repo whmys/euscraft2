@@ -1,0 +1,93 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:carved_pumpkin": 62,
+      "minecraft:enchanted_book": 2,
+      "minecraft:poppy": 2,
+      "minecraft:wildflowers": 3,
+      "minecraft:player_head": 7,
+      "minecraft:spyglass": 2,
+      "minecraft:netherite_chestplate": 1,
+      "minecraft:netherite_boots": 2,
+      "minecraft:iron_ingot": 3,
+      "minecraft:slime_block": 2,
+      "minecraft:mace": 1,
+      "minecraft:firework_rocket": 1,
+      "minecraft:magenta_wool": 1,
+      "minecraft:netherite_helmet": 2,
+      "minecraft:elytra": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:carved_pumpkin": 1
+    },
+    "minecraft:mined": {
+      "minecraft:magenta_wool": 1,
+      "minecraft:slime_block": 2
+    },
+    "minecraft:used": {
+      "minecraft:grass_block": 30,
+      "minecraft:netherite_helmet": 2,
+      "minecraft:piston": 1,
+      "minecraft:lever": 1,
+      "minecraft:magenta_wool": 1,
+      "minecraft:player_head": 3,
+      "minecraft:oak_slab": 11,
+      "minecraft:mace": 19,
+      "minecraft:firework_rocket": 1743,
+      "minecraft:cooked_beef": 1,
+      "minecraft:elytra": 1,
+      "minecraft:slime_block": 5,
+      "minecraft:sticky_piston": 1,
+      "minecraft:black_carpet": 2,
+      "minecraft:crafting_table": 1,
+      "minecraft:netherite_boots": 2,
+      "minecraft:chest": 1,
+      "minecraft:netherite_leggings": 1,
+      "minecraft:netherite_chestplate": 2,
+      "minecraft:netherite_spear": 2,
+      "minecraft:armor_stand": 2
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 782,
+      "minecraft:walk_one_cm": 92713,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 115,
+      "minecraft:mob_kills": 2,
+      "minecraft:damage_taken": 3964,
+      "minecraft:play_time": 66517,
+      "minecraft:damage_dealt": 34092,
+      "minecraft:jump": 236,
+      "minecraft:time_since_death": 753,
+      "minecraft:aviate_one_cm": 1511886,
+      "minecraft:drop": 11,
+      "minecraft:sprint_one_cm": 24242,
+      "minecraft:fall_one_cm": 2921,
+      "minecraft:total_world_time": 66517,
+      "minecraft:fly_one_cm": 394468,
+      "minecraft:walk_on_water_one_cm": 1344,
+      "minecraft:crouch_one_cm": 5011,
+      "minecraft:sneak_time": 689,
+      "minecraft:deaths": 5,
+      "minecraft:player_kills": 10
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 5
+    },
+    "minecraft:killed": {
+      "minecraft:iron_golem": 1,
+      "minecraft:giant": 1,
+      "minecraft:player": 10
+    },
+    "minecraft:dropped": {
+      "minecraft:carved_pumpkin": 64,
+      "minecraft:player_head": 1,
+      "minecraft:mace": 1,
+      "minecraft:enchanted_book": 2,
+      "minecraft:elytra": 1,
+      "minecraft:spyglass": 2,
+      "minecraft:firework_rocket": 1
+    }
+  },
+  "DataVersion": 4671
+}
