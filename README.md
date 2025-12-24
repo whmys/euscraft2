@@ -18,9 +18,9 @@ Simply create a new server profile, enter the IP: `euscraft.ca`, and press join!
 - There is custom terrain generation in both the overworld and nether
 - There is over 1000 new advancements added from the blaze and caves datapack
 ## Recipe Images
-- [Cairn](https://github.com/whmys/euscraft2/blob/main/crafting-grid%283%29.png?raw=true)
-- [End Portal Frame](https://github.com/whmys/euscraft2/blob/main/crafting-grid.png?raw=true)
-- [Endstone](https://github.com/whmys/euscraft2/blob/main/crafting-grid%281%29.png?raw=true)
+- [Cairn](https://github.com/whmys/euscraft2/blob/main/resources/crafting-grid(3).png?raw=true)
+- [End Portal Frame](https://github.com/whmys/euscraft2/blob/main/resources/crafting-grid.png?raw=true)
+- [Endstone](https://github.com/whmys/euscraft2/blob/main/resources/crafting-grid(1).png?raw=true)
 ## Homes and Spawn
 You can use the command `/trigger sethome` to set your home, and then warp back using `/trigger home`. You can only have 1 home at a time, and you must stand still for 1 second when warping.
 

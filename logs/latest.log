@@ -1,12 +1,11 @@
-[06:52:06] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.3
-[06:52:07] [main/INFO]: Loading 96 mods:
+[18:24:58] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.3
+[18:24:59] [main/INFO]: Loading 98 mods:
 	- bluemap 5.15
 	   |-- com_flowpowered_flow-math 1.0.3
 	   \-- de_bluecolored_bluenbt 3.5.0
 	- chunky 1.4.55
 	- dcintegration-fabric 3.1.0.1
-	   |-- de_erdbeerbaerlp_dcintegration_common 3.1.0
-	   \-- placeholder-api 2.8.0+1.21.9
+	   \-- de_erdbeerbaerlp_dcintegration_common 3.1.0
 	- distanthorizons 2.4.2-b
 	   |-- fabric-api-base 1.0.5+4ebb5c0853
 	   |-- fabric-entity-events-v1 3.0.5+4ebb5c0853
@@ -105,147 +104,489 @@
 	- java 21
 	- lithium 0.21.1+mc1.21.11
 	- minecraft 1.21.11
+	- styled-nicknames 1.11.1+1.21.11
+	   |-- placeholder-api 2.8.1+1.21.10
+	   \-- player-data-api 0.9.1+1.21.11
 	- terralith 2.5.14
-[06:52:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/eusminecraftserver2/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[06:52:07] [main/INFO]: Compatibility level set to JAVA_17
-[06:52:07] [main/INFO]: Compatibility level set to JAVA_21
-[06:52:08] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
-[06:52:09] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[06:52:21] [main/WARN]: en_ is not a supported Floodgate language.
-[06:52:22] [main/INFO]: Loading extensions...
-[06:52:22] [main/INFO]: Loaded 0 extension(s)
-[06:52:23] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
-[06:52:23] [main/INFO]: Running library validation...
-[06:52:23] [main/INFO]: Garbage collectors: [G1 Young Generation, G1 Concurrent GC, G1 Old Generation]
-[06:52:23] [main/WARN]: Distant Horizons: G1 Garbage collector detected. 
+[18:24:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/willd/Documents/MinecraftServers/EUScraft2/euscraft2/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:24:59] [main/INFO]: Compatibility level set to JAVA_17
+[18:24:59] [main/INFO]: Compatibility level set to JAVA_21
+[18:24:59] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[18:25:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[18:25:07] [main/WARN]: en_CA is not a supported Floodgate language.
+[18:25:07] [main/INFO]: Loading extensions...
+[18:25:07] [main/INFO]: Loaded 0 extension(s)
+[18:25:08] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[18:25:08] [main/INFO]: Running library validation...
+[18:25:08] [main/INFO]: Garbage collectors: [G1 Young Generation, G1 Concurrent GC, G1 Old Generation]
+[18:25:08] [main/WARN]: Distant Horizons: G1 Garbage collector detected. 
 This garbage collector can cause FPS stuttering. 
 It's recommended to use a concurrent garbage collector 
 like ZGC (Java 21+) or Shenandoah (Java 8 through 17) for a smoother experience. 
 
-[06:52:23] [main/INFO]: Distant Horizons, Version: 2.4.2-b
-[06:52:23] [main/INFO]: Registering Fabric Server Events
-[06:52:23] [main/INFO]: Skipping mod compatibility accessor for: [starlight]
-[06:52:23] [main/INFO]: Skipping mod compatibility accessor for: [optifine]
-[06:52:23] [main/INFO]: Skipping mod compatibility accessor for: [bclib]
-[06:52:23] [main/INFO]: Skipping mod compatibility accessor for: [c2me]
-[06:52:23] [main/INFO]: Skipping mod compatibility accessor for: [iris]
-[06:52:23] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
-[06:52:23] [main/WARN]: Invalid sha1 for resource-pack-sha1
-[06:52:23] [main/WARN]: resource-pack-id missing, using default of be0a1a4f-1a1a-35da-89e2-2dc256c1cea8
-[06:52:23] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[06:52:28] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
-[06:52:28] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
-[06:52:28] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element graves:entities/player of type minecraft:loot_table
-[06:52:28] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
-[06:52:29] [Worker-Main-1/ERROR]: Couldn't parse data file 'blazeandcave:challenges/explorer_of_worlds' from 'blazeandcave:advancement/challenges/explorer_of_worlds.json': DataResult.Error['Missing tag: 'blazeandcave:end_barrens' in 'minecraft:worldgen/biome'; Missing tag: 'blazeandcave:end_midlands' in 'minecraft:worldgen/biome' missed input: {"end_midlands":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:any_of","terms":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"biomes":"#blazeandcave:end_midlands"}}}]},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}},"end_barrens":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:any_of","terms":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"biomes":"#blazeandcave:end_barrens"}}}]},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}}}': class_161[parent=Optional[blazeandcave:challenges/im_in_space], display=Optional[net.minecraft.class_185@3a09e99d], rewards=class_170[experience=0, loot=[], recipes=[], function=Optional[net.minecraft.class_2159@a1ad9cf]], criteria={windswept_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@39382bc0]]], swamp=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4e9f42f5]]], ice_spikes=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@12973e48]]], nether_wastes=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4ef4c8db]]], beach=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@366a8cee]]], cold_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@256f83c]]], meadow=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@2918e340]]], small_end_islands=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@414244a8]]], end_barrens=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@23adad92]]], bamboo_jungle=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@168f26c3]]], plains=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7863d5b1]]], windswept_gravelly_hills=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@2bd7b911]]], deep_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@655850c4]]], old_growth_birch_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@a0ecb92]]], deep_dark=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@6ca6593f]]], cherry_grove=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7aaf7a8b]]], pale_garden=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@5d56db6a]]], snowy_plains=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@2178d909]]], taiga=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7f4913b8]]], crimson_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7e3345f8]]], ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@15554cdf]]], mushroom_fields=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@72027fed]]], sunflower_plains=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@45e176c6]]], flower_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@2119e707]]], badlands=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@1e15744f]]], end_midlands=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7f898d77]]], dark_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@31908306]]], windswept_savanna=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@5fdf6bec]]], savanna=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@6a5dcb54]]], river=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@590c015d]]], birch_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@6cb131c9]]], the_end=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4815b7b8]]], deep_frozen_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4c16d285]]], savanna_plateau=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@752934b3]]], grove=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@10f37ca6]]], desert=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@75beb177]]], deep_cold_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@fc6c7bf]]], frozen_peaks=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@3376f658]]], old_growth_spruce_taiga=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@386bbadc]]], mangrove_swamp=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@38de91af]]], forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@19c5234]]], frozen_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@55cb069]]], eroded_badlands=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@60044744]]], end_highlands=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@2c9bf102]]], lush_caves=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4ff51b57]]], basalt_deltas=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@2f4a2538]]], stony_shore=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@6d3669f2]]], lukewarm_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@1e5686b7]]], jagged_peaks=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@791e1989]]], frozen_river=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7838077]]], stony_peaks=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@59a4008c]]], soul_sand_valley=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@73ed5631]]], snowy_slopes=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7a36db94]]], warped_forest=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@61ad6c9d]]], snowy_beach=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@1874a044]]], sparse_jungle=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@13121a5]]], jungle=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4d17b06c]]], warm_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@47d4e4d7]]], old_growth_pine_taiga=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@7a1f0ae9]]], snowy_taiga=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@72ab3006]]], windswept_hills=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@24f6aef]]], wooded_badlands=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@62ddd42d]]], dripstone_caves=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@6017c2dd]]], deep_lukewarm_ocean=class_175[trigger=net.minecraft.class_2135@44fe5dff, triggerInstance=class_2137[player=Optional[net.minecraft.class_5258@4b97e5d9]]]}, requirements=[[river], [swamp], [desert], [snowy_taiga], [badlands], [forest], [stony_shore], [snowy_plains], [wooded_badlands], [savanna], [plains], [frozen_river], [old_growth_pine_taiga], [snowy_beach], [deep_ocean], [sparse_jungle], [ocean], [windswept_hills], [jungle], [beach], [savanna_plateau], [dark_forest], [taiga], [birch_forest], [mushroom_fields], [windswept_forest], [cold_ocean], [warm_ocean], [lukewarm_ocean], [frozen_ocean], [deep_frozen_ocean], [deep_lukewarm_ocean], [deep_cold_ocean], [bamboo_jungle], [sunflower_plains], [windswept_gravelly_hills], [flower_forest], [ice_spikes], [old_growth_birch_forest], [old_growth_spruce_taiga], [windswept_savanna], [eroded_badlands], [meadow], [grove], [snowy_slopes], [frozen_peaks], [jagged_peaks], [stony_peaks], [lush_caves], [dripstone_caves], [nether_wastes], [crimson_forest], [warped_forest], [soul_sand_valley], [basalt_deltas], [the_end], [small_end_islands], [end_highlands], [end_midlands], [end_barrens], [mangrove_swamp], [deep_dark], [cherry_grove], [pale_garden]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[translation{key='Explorer of Worlds', args=[]}[style={hoverEvent=class_10613[value=translation{key='Explorer of Worlds', args=[]}[style={color=dark_purple}, siblings=[literal{
-}, translation{key='Discover every vanilla biome from every dimension', args=[]}[style={color=#FF2A2A}]]]]}]]}[style={color=dark_purple}]]]]
-[06:52:32] [main/INFO]: Loaded 1844 recipes
-[06:52:32] [main/ERROR]: Couldn't load advancements: [blazeandcave:technical/biome_branch2_end, blazeandcave:adventure/castle_of_hrrms, blazeandcave:biomes/highlander, blazeandcave:biomes/smarter_than_the_average_bear, blazeandcave:biomes/warm_feet, blazeandcave:biomes/high_feet, blazeandcave:mining/oresome, blazeandcave:adventure/raidin_master, blazeandcave:biomes/one_with_the_forest, blazeandcave:adventure/remote_shelter, blazeandcave:biomes/skylanders, blazeandcave:biomes/land_of_icicles, blazeandcave:biomes/terralithic, blazeandcave:biomes/pretty_in_purple, blazeandcave:biomes/over_the_moon, blazeandcave:adventure/totally_not_terraria, blazeandcave:biomes/aesthetic, blazeandcave:technical/biome_branch1_end, blazeandcave:biomes/o_land_o_bloom, blazeandcave:biomes/one_small_steppe_for_man, blazeandcave:biomes/master_spelunker, blazeandcave:challenges/i_am_loot, blazeandcave:adventure/a_journey_begins, blazeandcave:biomes/a_grassy_nature, blazeandcave:adventure/under_the_ice, blazeandcave:biomes/eruption_in_the_air, blazeandcave:biomes/cold_feet, blazeandcave:biomes/wet_feet, blazeandcave:biomes/alpha_days, blazeandcave:biomes/bushranger, blazeandcave:adventure/spire_of_ice, blazeandcave:biomes/overgrown, minecraft:adventure/adventuring_time, blazeandcave:biomes/a_cliffhanger, blazeandcave:biomes/the_world_is_your_canvas, blazeandcave:biomes/choco_mountain, blazeandcave:biomes/the_boreal_deal, blazeandcave:adventure/expedition_of_discovery]
-[06:52:32] [main/INFO]: Loaded 1898 advancements
-[06:52:32] [main/INFO]: Applied 0 biome modifications to 0 of 171 new biomes in 3.466 ms
-[06:52:32] [Server thread/INFO]: Initialising config for [DistantHorizons]
-[06:52:32] [Server thread/INFO]: [DistantHorizons] Config initialised
-[06:52:32] [Server thread/WARN]: Multiple potential preset options [LOW_IMPACT, BALANCED], defaulting to the first one.
-[06:52:32] [Server thread/INFO]: Applying config to loggers
-[06:52:32] [Server thread/INFO]: Running Delayed setup...
-[06:52:32] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
-[06:52:32] [Server thread/INFO]: Checking for Distant Horizons update
-[06:52:33] [Server thread/INFO]: New version (2.4.3-b) of Distant Horizons is available
-[06:52:33] [Server thread/INFO]: Download link: https://cdn.modrinth.com/data/uCdwusMi/versions/OmG1jkba/DistantHorizons-2.4.3-b-1.21.11-fabric-neoforge.jar
-[06:52:33] [Server thread/INFO]: Distant Horizons server Initialized at 
-[06:52:33] [Server thread/INFO]: Waiting for JDA to initialize to send starting message... (max 5 seconds before skipping)
-[06:52:34] [DiscordIntegration Launch Thread/ERROR]: Invalid token, please set correct token in the config file!
-[06:52:35] [DH-ApplyConfigPresetTimer/WARN]: Multiple potential preset options [LOW_IMPACT, BALANCED], defaulting to the first one.
-[06:52:39] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
-[06:52:39] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[06:52:39] [Server thread/INFO]: Loading properties
-[06:52:39] [Server thread/INFO]: Default game type: SURVIVAL
-[06:52:39] [Server thread/INFO]: Generating keypair
-[06:52:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:52:39] [Server thread/INFO]: Preparing level "eus-2"
-[06:52:40] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[06:52:40] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@overworld}] at [[LocalSaveStructure@(./eus-2/data)]].
-[06:52:40] [DH-Request Module Ticker [minecraft@@overworld] Thread[0]/INFO]: Batch Chunk Generator initialized
-[06:52:40] [DH-Request Module Ticker [minecraft@@overworld] Thread[0]/INFO]: Creating world gen queue
-[06:52:40] [DH-Request Module Ticker [minecraft@@overworld] Thread[0]/INFO]: Created world gen queue
-[06:52:40] [DH-Request Module Ticker [minecraft@@overworld] Thread[0]/INFO]: Set world gen queue for level [minecraft@@overworld].
-[06:52:40] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[06:52:40] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@the_nether}] at [[LocalSaveStructure@(./eus-2/DIM-1/data;./eus-2/data)]].
-[06:52:40] [DH-Request Module Ticker [minecraft@@the_nether] Thread[0]/INFO]: Batch Chunk Generator initialized
-[06:52:40] [DH-Request Module Ticker [minecraft@@the_nether] Thread[0]/INFO]: Creating world gen queue
-[06:52:40] [DH-Request Module Ticker [minecraft@@the_nether] Thread[0]/INFO]: Created world gen queue
-[06:52:40] [DH-Request Module Ticker [minecraft@@the_nether] Thread[0]/INFO]: Set world gen queue for level [minecraft@@the_nether].
-[06:52:40] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[06:52:40] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@the_end}] at [[LocalSaveStructure@(./eus-2/DIM-1/data;./eus-2/DIM1/data;./eus-2/data)]].
-[06:52:40] [DH-Request Module Ticker [minecraft@@the_end] Thread[0]/INFO]: Batch Chunk Generator initialized
-[06:52:40] [DH-Request Module Ticker [minecraft@@the_end] Thread[0]/INFO]: Creating world gen queue
-[06:52:40] [DH-Request Module Ticker [minecraft@@the_end] Thread[0]/INFO]: Created world gen queue
-[06:52:40] [DH-Request Module Ticker [minecraft@@the_end] Thread[0]/INFO]: Set world gen queue for level [minecraft@@the_end].
-[06:52:40] [Server thread/INFO]: Loading 25 persistent chunks...
-[06:52:40] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:41] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:41] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:42] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:42] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:43] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:43] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:44] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:44] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:45] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:45] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:46] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:46] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:47] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:47] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:48] [Server thread/INFO]: Preparing spawn area: 28%
-[06:52:48] [Server thread/INFO]: Time elapsed: 7763 ms
-[06:52:48] [Server thread/INFO]: Done (8.840s)! For help, type "help"
-[06:52:48] [BlueMap-Plugin-Loading/INFO]: Loading BlueMap...
-[06:52:48] [Server thread/INFO]: Took 66ms to boot Floodgate
-[06:52:49] [Server thread/INFO]: ******************************************
-[06:52:49] [Server thread/INFO]: 
-[06:52:49] [Server thread/INFO]: Loading Geyser version 2.9.2-b1007 (git-master-9a1d425)
-[06:52:49] [Server thread/INFO]: 
-[06:52:49] [Server thread/INFO]: ******************************************
-[06:52:49] [BlueMap-Plugin-Loading/INFO]: Loading resources...
-[06:52:55] [BlueMap-Plugin-Loading/INFO]: Resources loaded.
-[06:52:56] [BlueMap-Plugin-Loading/INFO]: Initializing Storage: 'file' (Type: 'bluemap:file')
-[06:52:56] [BlueMap-Plugin-Loading/INFO]: Loading map 'eus_2'...
-[06:52:57] [BlueMap-Plugin-Loading/INFO]: Loading map 'eus_2_the_nether'...
-[06:52:58] [BlueMap-Plugin-Loading/INFO]: Loading map 'eus_2_the_end'...
-[06:52:58] [BlueMap-Plugin-Loading/INFO]: WebServer bound to all network interfaces on port 8100
-[06:52:58] [Thread-25/INFO]: WebServer started.
-[06:52:58] [BlueMap-Plugin-Loading/INFO]: BlueMap loaded!
-[06:52:58] [GeyserServer-3-1/INFO]: Started Geyser on UDP port 19132
-[06:52:58] [Server thread/INFO]: Done (9.638s)! Run /geyser help for help!
-[06:52:58] [Server thread/INFO]: Started
-[06:52:58] [DiscordIntegration-Core WorkerThread/ERROR]: java.lang.NullPointerException: Cannot invoke "net.dv8tion.jda.api.JDA.getSelfUser()" because the return value of "de.erdbeerbaerlp.dcintegration.common.DiscordIntegration.getJDA()" is null
-[06:52:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10643ms or 212 ticks behind
-[06:53:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[06:57:48] [User Authenticator #1/INFO]: UUID of player Whmys is a8541b6e-1a1c-4e37-a901-5e5d499a6379
-[06:57:57] [Server thread/INFO]: Whmys[/70.72.202.55:53320] logged in with entity id 43 at (852.8501697182692, 139.0, -103.14927677540327)
-[06:57:57] [Server thread/INFO]: Player [Whmys] joined.
-[06:57:57] [Server thread/INFO]: Whmys joined the game
-[06:58:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3374ms or 67 ticks behind
-[06:58:12] [Server thread/INFO]: [Whmys: Set the time to 1000]
-[06:58:16] [Netty Epoll IO #1/INFO]: Player [Whmys] disconnected.
-[06:58:16] [Server thread/INFO]: Whmys lost connection: Disconnected
-[06:58:16] [Server thread/INFO]: Whmys left the game
-[06:59:16] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[07:04:38] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.base/java.io.FileInputStream.readBytes(Native Method)
-	at java.base/java.io.FileInputStream.read(FileInputStream.java:287)
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
-	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
-	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
-	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393)
-	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217)
-	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171)
-	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188)
-	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
-	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370)
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347)
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436)
-	at knot//net.minecraft.class_3176$1.run(class_3176.java:186)
+[18:25:08] [main/INFO]: Distant Horizons, Version: 2.4.2-b
+[18:25:08] [main/INFO]: Registering Fabric Server Events
+[18:25:08] [main/INFO]: Skipping mod compatibility accessor for: [starlight]
+[18:25:08] [main/INFO]: Skipping mod compatibility accessor for: [optifine]
+[18:25:08] [main/INFO]: Skipping mod compatibility accessor for: [bclib]
+[18:25:08] [main/INFO]: Skipping mod compatibility accessor for: [c2me]
+[18:25:08] [main/INFO]: Skipping mod compatibility accessor for: [iris]
+[18:25:08] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
+[18:25:08] [main/WARN]: Invalid sha1 for resource-pack-sha1
+[18:25:08] [main/WARN]: resource-pack-id missing, using default of 05439c70-2ad1-32be-b7fc-586be285e2ce
+[18:25:08] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[18:25:08] [main/INFO]: Found non-pack entry '.\eus-2\datapacks\file', ignoring
+[18:25:08] [main/INFO]: Found new data pack file/BlazeandCave's Advancements Pack 1.20.2.zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/BlazeandCave's Advancements Pack Terralith.zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/Terralith_v2.5.14_1.21.11.zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/VanillaTweaks_Craftting.zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/armor statues v2.8.21 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/cairn-pack-data.zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/confetti creepers v2.2.16 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/custom nether portals v2.3.18 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/double shulker shells v1.3.15 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/durability ping v1.1.16 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/homes v1.5.17 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/lavaflow-datapack.zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/mini blocks v1.1.5 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/more mob heads v2.18.0 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/painting picker v1.1.2 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/player head drops v1.1.15 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/spawn v2.3.15 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/track raw statistics v1.7.11 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/track statistics v1.1.17 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/unlock all recipes v2.0.16 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:08] [main/INFO]: Found new data pack file/wandering trades v1.7.14 (MC 1.21-1.21.11).zip, loading it automatically
+[18:25:10] [main/INFO]: No existing world data, creating new world
+[18:25:10] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
+[18:25:10] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
+[18:25:10] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element graves:entities/player of type minecraft:loot_table
+[18:25:10] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
+[18:25:13] [main/INFO]: Loaded 1844 recipes
+[18:25:13] [main/INFO]: Loaded 3090 advancements
+[18:25:13] [main/INFO]: Applied 0 biome modifications to 0 of 171 new biomes in 1.475 ms
+[18:25:13] [Server thread/INFO]: Initialising config for [DistantHorizons]
+[18:25:13] [Server thread/INFO]: [DistantHorizons] Config initialised
+[18:25:13] [Server thread/INFO]: Applying config to loggers
+[18:25:13] [Server thread/INFO]: Running Delayed setup...
+[18:25:13] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[18:25:13] [Server thread/INFO]: Checking for Distant Horizons update
+[18:25:14] [Server thread/INFO]: New version (2.4.3-b) of Distant Horizons is available
+[18:25:14] [Server thread/INFO]: Download link: https://cdn.modrinth.com/data/uCdwusMi/versions/OmG1jkba/DistantHorizons-2.4.3-b-1.21.11-fabric-neoforge.jar
+[18:25:14] [Server thread/INFO]: Distant Horizons server Initialized at 
+[18:25:14] [Server thread/INFO]: Waiting for JDA to initialize to send starting message... (max 5 seconds before skipping)
+[18:25:15] [DiscordIntegration Launch Thread/ERROR]: Invalid token, please set correct token in the config file!
+[18:25:20] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[18:25:20] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[18:25:20] [Server thread/INFO]: Loading properties
+[18:25:20] [Server thread/INFO]: Default game type: SURVIVAL
+[18:25:20] [Server thread/INFO]: Generating keypair
+[18:25:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:25:20] [Server thread/INFO]: Preparing level "eus-2"
+[18:25:21] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [.\eus-2\data\DistantHorizons.sqlite]
+[18:25:21] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [.\eus-2\data\DistantHorizons.sqlite]
+[18:25:21] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [.\eus-2\data\DistantHorizons.sqlite]
+[18:25:21] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [.\eus-2\data\DistantHorizons.sqlite]
+[18:25:21] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [.\eus-2\data\DistantHorizons.sqlite]
+[18:25:21] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [.\eus-2\data\DistantHorizons.sqlite]
+[18:25:21] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [.\eus-2\data\DistantHorizons.sqlite]
+[18:25:21] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [.\eus-2\data\DistantHorizons.sqlite]
+[18:25:21] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [.\eus-2\data\DistantHorizons.sqlite]
+[18:25:21] [Server thread/INFO]: Running SQL update script: [sqlScripts/0090-sqlite-addAdjacentFullDataColumns.sql], for repo: [.\eus-2\data\DistantHorizons.sqlite]
+[18:25:21] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@overworld}] at [[LocalSaveStructure@(.\eus-2\data)]].
+[18:25:21] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[18:25:21] [DH-Request Module Ticker [minecraft@@overworld] Thread[0]/INFO]: Batch Chunk Generator initialized
+[18:25:21] [Server thread/INFO]: Selecting global world spawn...
+[18:25:21] [DH-Request Module Ticker [minecraft@@overworld] Thread[0]/INFO]: Creating world gen queue
+[18:25:21] [DH-Request Module Ticker [minecraft@@overworld] Thread[0]/INFO]: Created world gen queue
+[18:25:21] [DH-Request Module Ticker [minecraft@@overworld] Thread[0]/INFO]: Set world gen queue for level [minecraft@@overworld].
+[18:25:27] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [.\eus-2\DIM1\data\DistantHorizons.sqlite]
+[18:25:27] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [.\eus-2\DIM1\data\DistantHorizons.sqlite]
+[18:25:27] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [.\eus-2\DIM1\data\DistantHorizons.sqlite]
+[18:25:27] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [.\eus-2\DIM1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [.\eus-2\DIM1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [.\eus-2\DIM1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [.\eus-2\DIM1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [.\eus-2\DIM1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [.\eus-2\DIM1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0090-sqlite-addAdjacentFullDataColumns.sql], for repo: [.\eus-2\DIM1\data\DistantHorizons.sqlite]
+[18:25:28] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[18:25:28] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@the_end}] at [[LocalSaveStructure@(.\eus-2\DIM1\data;.\eus-2\data)]].
+[18:25:28] [DH-Request Module Ticker [minecraft@@the_end] Thread[0]/INFO]: Batch Chunk Generator initialized
+[18:25:28] [DH-Request Module Ticker [minecraft@@the_end] Thread[0]/INFO]: Creating world gen queue
+[18:25:28] [DH-Request Module Ticker [minecraft@@the_end] Thread[0]/INFO]: Created world gen queue
+[18:25:28] [DH-Request Module Ticker [minecraft@@the_end] Thread[0]/INFO]: Set world gen queue for level [minecraft@@the_end].
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [.\eus-2\DIM-1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [.\eus-2\DIM-1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [.\eus-2\DIM-1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [.\eus-2\DIM-1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [.\eus-2\DIM-1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [.\eus-2\DIM-1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [.\eus-2\DIM-1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [.\eus-2\DIM-1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [.\eus-2\DIM-1\data\DistantHorizons.sqlite]
+[18:25:28] [Server thread/INFO]: Running SQL update script: [sqlScripts/0090-sqlite-addAdjacentFullDataColumns.sql], for repo: [.\eus-2\DIM-1\data\DistantHorizons.sqlite]
+[18:25:28] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[18:25:28] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@the_nether}] at [[LocalSaveStructure@(.\eus-2\DIM1\data;.\eus-2\data;.\eus-2\DIM-1\data)]].
+[18:25:28] [Server thread/INFO]: Loading 0 persistent chunks...
+[18:25:28] [Server thread/INFO]: Preparing spawn area: 100%
+[18:25:28] [Server thread/INFO]: Time elapsed: 6445 ms
+[18:25:28] [Server thread/INFO]: Done (7.195s)! For help, type "help"
+[18:25:28] [BlueMap-Plugin-Loading/INFO]: Loading BlueMap...
+[18:25:28] [DH-Request Module Ticker [minecraft@@the_nether] Thread[0]/INFO]: Batch Chunk Generator initialized
+[18:25:28] [DH-Request Module Ticker [minecraft@@the_nether] Thread[0]/INFO]: Creating world gen queue
+[18:25:28] [DH-Request Module Ticker [minecraft@@the_nether] Thread[0]/INFO]: Created world gen queue
+[18:25:28] [DH-Request Module Ticker [minecraft@@the_nether] Thread[0]/INFO]: Set world gen queue for level [minecraft@@the_nether].
+[18:25:28] [Server thread/INFO]: Took 44ms to boot Floodgate
+[18:25:28] [Server thread/INFO]: ******************************************
+[18:25:28] [Server thread/INFO]: 
+[18:25:28] [Server thread/INFO]: Loading Geyser version 2.9.2-b1007 (git-master-9a1d425)
+[18:25:28] [Server thread/INFO]: 
+[18:25:28] [Server thread/INFO]: ******************************************
+[18:25:29] [BlueMap-Plugin-Loading/INFO]: Downloading 'https://piston-data.mojang.com/v1/objects/ba2df812c2d12e0219c489c4cd9a5e1f0760f5bd/client.jar' to 'bluemap\minecraft-client-1.21.11.jar'...
+[18:25:32] [GeyserServer-3-1/INFO]: Started Geyser on UDP port 19132
+[18:25:32] [Server thread/INFO]: Done (3.725s)! Run /geyser help for help!
+[18:25:32] [Server thread/INFO]: Started
+[18:25:32] [DiscordIntegration-Core WorkerThread/ERROR]: java.lang.NullPointerException: Cannot invoke "net.dv8tion.jda.api.JDA.getSelfUser()" because the return value of "de.erdbeerbaerlp.dcintegration.common.DiscordIntegration.getJDA()" is null
+[18:25:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5367ms or 107 ticks behind
+[18:25:34] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
+[18:25:34] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
+[18:25:34] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element graves:entities/player of type minecraft:loot_table
+[18:25:34] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
+[18:25:35] [Server thread/INFO]: Loaded 1844 recipes
+[18:25:35] [Server thread/INFO]: Loaded 3062 advancements
+[18:25:36] [Worker-Main-5/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
+[18:25:36] [Worker-Main-5/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
+[18:25:36] [Worker-Main-5/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element graves:entities/player of type minecraft:loot_table
+[18:25:36] [Worker-Main-5/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
+[18:25:37] [Server thread/INFO]: Loaded 1844 recipes
+[18:25:37] [Server thread/INFO]: Loaded 3090 advancements
+[18:25:38] [BlueMap-Plugin-Loading/INFO]: Loading resources...
+[18:25:43] [BlueMap-Plugin-Loading/INFO]: Resources loaded.
+[18:25:43] [BlueMap-Plugin-Loading/INFO]: Initializing Storage: 'file' (Type: 'bluemap:file')
+[18:25:43] [BlueMap-Plugin-Loading/INFO]: Loading map 'eus_2'...
+[18:25:44] [BlueMap-Plugin-Loading/INFO]: Loading map 'eus_2_the_nether'...
+[18:25:44] [BlueMap-Plugin-Loading/INFO]: Loading map 'eus_2_the_end'...
+[18:25:44] [BlueMap-Plugin-Loading/INFO]: WebServer bound to all network interfaces on port 8100
+[18:25:44] [Thread-29/INFO]: WebServer started.
+[18:25:44] [BlueMap-Plugin-Loading/INFO]: BlueMap loaded!
+[18:25:53] [Server thread/INFO]: [Chunky] Center changed to 0, 0.
+[18:25:53] [Server thread/INFO]: [Chunky] Radius changed to 29999984.
+[18:25:53] [Server thread/INFO]: [Chunky] Notice: Your world border is currently set larger than the maximum of 20000 configured in server.properties. This is normally an error and can cause issues.
+[18:26:15] [Server thread/INFO]: Set the world border to 1250.0 block(s) wide
+[18:26:28] [Server thread/INFO]: Set the world spawn point to 858, 137, -113 [0.0, 0.0] in minecraft:overworld
+[18:26:33] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:26:51] [Server thread/INFO]: Set the center of the world border to 845.50, -110.50
+[18:26:55] [Server thread/INFO]: [Chunky] Center changed to 845.5, -110.5.
+[18:26:55] [Server thread/INFO]: [Chunky] Radius changed to 625.
+[18:27:01] [Server thread/INFO]: [Chunky] Task started in minecraft:overworld for the square region centered at 845.5, -110.5 with radius 625.
+[18:27:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13 chunks (0.20%), ETA: 0:01:32, Rate: 70.7 cps, Current: 33, -31
+[18:27:13] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 57 chunks (0.87%), ETA: 0:09:16, Rate: 11.7 cps, Current: 36, -31
+[18:27:14] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 119 chunks (1.81%), ETA: 0:05:22, Rate: 20.0 cps, Current: 42, -26
+[18:27:16] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 122 chunks (1.86%), ETA: 0:06:57, Rate: 15.4 cps, Current: 41, -25
+[18:27:17] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 154 chunks (2.35%), ETA: 0:06:23, Rate: 16.7 cps, Current: 40, -21
+[18:27:19] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 161 chunks (2.45%), ETA: 0:07:18, Rate: 14.6 cps, Current: 45, -19
+[18:27:21] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 180 chunks (2.74%), ETA: 0:07:40, Rate: 13.9 cps, Current: 41, -20
+[18:27:24] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 225 chunks (3.43%), ETA: 0:07:17, Rate: 14.5 cps, Current: 32, -23
+[18:27:25] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 274 chunks (4.18%), ETA: 0:06:31, Rate: 16.1 cps, Current: 36, -15
+[18:27:27] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 275 chunks (4.19%), ETA: 0:07:20, Rate: 14.3 cps, Current: 37, -15
+[18:27:28] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 317 chunks (4.83%), ETA: 0:06:40, Rate: 15.6 cps, Current: 33, -10
+[18:27:30] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 319 chunks (4.86%), ETA: 0:07:03, Rate: 14.8 cps, Current: 33, -9
+[18:27:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 325 chunks (4.95%), ETA: 0:07:38, Rate: 13.6 cps, Current: 34, -7
+[18:27:37] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 385 chunks (5.87%), ETA: 0:07:49, Rate: 13.2 cps, Current: 43, -5
+[18:27:41] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 441 chunks (6.72%), ETA: 0:07:18, Rate: 13.9 cps, Current: 44, -8
+[18:27:42] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 505 chunks (7.70%), ETA: 0:06:26, Rate: 15.7 cps, Current: 46, -16
+[18:27:45] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 513 chunks (7.82%), ETA: 0:07:32, Rate: 13.4 cps, Current: 49, -14
+[18:27:47] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 515 chunks (7.85%), ETA: 0:08:18, Rate: 12.1 cps, Current: 50, -15
+[18:27:49] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 577 chunks (8.79%), ETA: 0:07:09, Rate: 13.9 cps, Current: 49, -8
+[18:27:52] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 579 chunks (8.82%), ETA: 0:07:56, Rate: 12.6 cps, Current: 50, -6
+[18:27:55] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 641 chunks (9.77%), ETA: 0:07:28, Rate: 13.2 cps, Current: 56, -8
+[18:27:56] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 643 chunks (9.80%), ETA: 0:07:46, Rate: 12.7 cps, Current: 58, -8
+[18:28:00] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 697 chunks (10.62%), ETA: 0:07:25, Rate: 13.2 cps, Current: 60, -7
+[18:28:05] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 747 chunks (11.39%), ETA: 0:07:27, Rate: 13.0 cps, Current: 59, -15
+[18:28:06] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 793 chunks (12.09%), ETA: 0:06:49, Rate: 14.1 cps, Current: 61, -23
+[18:28:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 794 chunks (12.10%), ETA: 0:07:20, Rate: 13.1 cps, Current: 61, -21
+[18:28:09] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 833 chunks (12.70%), ETA: 0:06:55, Rate: 13.8 cps, Current: 55, -17
+[18:28:10] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 864 chunks (13.17%), ETA: 0:06:41, Rate: 14.2 cps, Current: 54, -20
+[18:28:12] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 898 chunks (13.69%), ETA: 0:06:33, Rate: 14.4 cps, Current: 55, -25
+[18:28:14] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 908 chunks (13.84%), ETA: 0:06:50, Rate: 13.8 cps, Current: 48, -25
+[18:28:15] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 940 chunks (14.33%), ETA: 0:06:33, Rate: 14.3 cps, Current: 50, -29
+[18:28:17] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 959 chunks (14.62%), ETA: 0:06:15, Rate: 14.9 cps, Current: 56, -29
+[18:28:19] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 993 chunks (15.13%), ETA: 0:06:35, Rate: 14.1 cps, Current: 60, -31
+[18:28:21] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1012 chunks (15.42%), ETA: 0:06:11, Rate: 15.0 cps, Current: 63, -26
+[18:28:22] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1026 chunks (15.64%), ETA: 0:06:29, Rate: 14.2 cps, Current: 64, -30
+[18:28:24] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1032 chunks (15.73%), ETA: 0:06:45, Rate: 13.6 cps, Current: 64, -25
+[18:28:26] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1074 chunks (16.37%), ETA: 0:06:20, Rate: 14.4 cps, Current: 65, -15
+[18:28:28] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1082 chunks (16.49%), ETA: 0:06:26, Rate: 14.2 cps, Current: 65, -11
+[18:28:29] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1096 chunks (16.70%), ETA: 0:06:28, Rate: 14.1 cps, Current: 66, -25
+[18:28:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1123 chunks (17.12%), ETA: 0:06:07, Rate: 14.8 cps, Current: 67, -30
+[18:28:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1141 chunks (17.39%), ETA: 0:06:03, Rate: 14.9 cps, Current: 67, -21
+[18:28:33] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1156 chunks (17.62%), ETA: 0:06:03, Rate: 14.9 cps, Current: 68, -32
+[18:28:35] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1173 chunks (17.88%), ETA: 0:06:13, Rate: 14.4 cps, Current: 68, -12
+[18:28:37] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1202 chunks (18.32%), ETA: 0:06:24, Rate: 14.0 cps, Current: 69, -8
+[18:28:39] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1217 chunks (18.55%), ETA: 0:06:49, Rate: 13.1 cps, Current: 70, -26
+[18:28:41] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1252 chunks (19.08%), ETA: 0:07:17, Rate: 12.1 cps, Current: 71, -13
+[18:28:43] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1281 chunks (19.52%), ETA: 0:06:43, Rate: 13.1 cps, Current: 72, -31
+[18:28:44] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1293 chunks (19.71%), ETA: 0:07:09, Rate: 12.3 cps, Current: 72, -23
+[18:28:46] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1327 chunks (20.23%), ETA: 0:06:48, Rate: 12.8 cps, Current: 73, -18
+[18:28:47] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1333 chunks (20.32%), ETA: 0:06:58, Rate: 12.5 cps, Current: 73, -12
+[18:28:48] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1349 chunks (20.56%), ETA: 0:07:07, Rate: 12.2 cps, Current: 74, -13
+[18:28:49] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1377 chunks (20.99%), ETA: 0:06:37, Rate: 13.1 cps, Current: 75, -32
+[18:28:50] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1385 chunks (21.11%), ETA: 0:06:42, Rate: 12.9 cps, Current: 75, -17
+[18:28:51] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1399 chunks (21.32%), ETA: 0:06:36, Rate: 13.0 cps, Current: 75, -3
+[18:28:52] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1427 chunks (21.75%), ETA: 0:06:20, Rate: 13.5 cps, Current: 76, -12
+[18:28:54] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1443 chunks (21.99%), ETA: 0:06:07, Rate: 13.9 cps, Current: 77, -30
+[18:28:55] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1481 chunks (22.57%), ETA: 0:05:52, Rate: 14.4 cps, Current: 78, -18
+[18:28:56] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1500 chunks (22.86%), ETA: 0:05:51, Rate: 14.4 cps, Current: 79, -25
+[18:28:57] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1524 chunks (23.23%), ETA: 0:05:36, Rate: 15.0 cps, Current: 79, -8
+[18:28:59] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1544 chunks (23.53%), ETA: 0:05:32, Rate: 15.1 cps, Current: 80, -27
+[18:29:00] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1577 chunks (24.04%), ETA: 0:05:17, Rate: 15.7 cps, Current: 81, -25
+[18:29:01] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1591 chunks (24.25%), ETA: 0:05:19, Rate: 15.5 cps, Current: 81, -15
+[18:29:02] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1619 chunks (24.68%), ETA: 0:05:10, Rate: 15.9 cps, Current: 82, -16
+[18:29:03] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1645 chunks (25.07%), ETA: 0:04:54, Rate: 16.7 cps, Current: 83, -9
+[18:29:04] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1667 chunks (25.41%), ETA: 0:04:50, Rate: 16.9 cps, Current: 84, -30
+[18:29:05] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1680 chunks (25.61%), ETA: 0:04:49, Rate: 16.8 cps, Current: 84, -18
+[18:29:06] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1713 chunks (26.11%), ETA: 0:04:39, Rate: 17.3 cps, Current: 85, -15
+[18:29:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1731 chunks (26.38%), ETA: 0:04:32, Rate: 17.7 cps, Current: 86, -24
+[18:29:09] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1757 chunks (26.78%), ETA: 0:04:19, Rate: 18.5 cps, Current: 86, -4
+[18:29:10] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1790 chunks (27.28%), ETA: 0:04:13, Rate: 18.9 cps, Current: 87, -3
+[18:29:11] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1805 chunks (27.51%), ETA: 0:04:20, Rate: 18.2 cps, Current: 88, -25
+[18:29:13] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1840 chunks (28.04%), ETA: 0:04:06, Rate: 19.2 cps, Current: 89, -13
+[18:29:14] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1875 chunks (28.58%), ETA: 0:03:59, Rate: 19.6 cps, Current: 90, -7
+[18:29:15] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1887 chunks (28.76%), ETA: 0:04:03, Rate: 19.2 cps, Current: 91, -30
+[18:29:16] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1906 chunks (29.05%), ETA: 0:03:59, Rate: 19.5 cps, Current: 91, -16
+[18:29:21] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1946 chunks (29.66%), ETA: 0:04:08, Rate: 18.6 cps, Current: 92, -7
+[18:29:23] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1998 chunks (30.45%), ETA: 0:04:03, Rate: 18.7 cps, Current: 67, -45
+[18:29:25] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2046 chunks (31.18%), ETA: 0:03:58, Rate: 19.0 cps, Current: 70, -46
+[18:29:26] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2050 chunks (31.25%), ETA: 0:04:01, Rate: 18.6 cps, Current: 71, -39
+[18:29:27] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2088 chunks (31.82%), ETA: 0:03:56, Rate: 18.9 cps, Current: 73, -45
+[18:29:29] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2112 chunks (32.19%), ETA: 0:03:54, Rate: 19.0 cps, Current: 74, -44
+[18:29:30] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2144 chunks (32.68%), ETA: 0:03:51, Rate: 19.1 cps, Current: 76, -34
+[18:29:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2161 chunks (32.94%), ETA: 0:03:49, Rate: 19.2 cps, Current: 78, -38
+[18:29:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2187 chunks (33.33%), ETA: 0:03:48, Rate: 19.2 cps, Current: 79, -39
+[18:29:33] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2193 chunks (33.42%), ETA: 0:03:54, Rate: 18.6 cps, Current: 80, -45
+[18:29:34] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2224 chunks (33.90%), ETA: 0:03:51, Rate: 18.8 cps, Current: 82, -46
+[18:29:35] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2238 chunks (34.11%), ETA: 0:03:49, Rate: 18.8 cps, Current: 83, -41
+[18:29:36] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2269 chunks (34.58%), ETA: 0:03:48, Rate: 18.8 cps, Current: 84, -35
+[18:29:37] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2277 chunks (34.71%), ETA: 0:03:50, Rate: 18.6 cps, Current: 85, -37
+[18:29:38] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2328 chunks (35.48%), ETA: 0:03:39, Rate: 19.3 cps, Current: 89, -46
+[18:29:40] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2349 chunks (35.80%), ETA: 0:03:41, Rate: 19.0 cps, Current: 90, -47
+[18:29:42] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2378 chunks (36.24%), ETA: 0:03:45, Rate: 18.5 cps, Current: 92, -42
+[18:29:43] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2381 chunks (36.29%), ETA: 0:04:01, Rate: 17.3 cps, Current: 92, -40
+[18:29:44] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2403 chunks (36.63%), ETA: 0:03:55, Rate: 17.7 cps, Current: 33, -45
+[18:29:46] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2433 chunks (37.08%), ETA: 0:03:47, Rate: 18.2 cps, Current: 35, -47
+[18:29:47] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2463 chunks (37.54%), ETA: 0:03:27, Rate: 19.7 cps, Current: 37, -41
+[18:29:48] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2493 chunks (38.00%), ETA: 0:03:24, Rate: 19.9 cps, Current: 39, -47
+[18:29:49] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2523 chunks (38.45%), ETA: 0:03:20, Rate: 20.1 cps, Current: 41, -41
+[18:29:51] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2554 chunks (38.93%), ETA: 0:03:17, Rate: 20.3 cps, Current: 43, -43
+[18:29:52] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2573 chunks (39.22%), ETA: 0:03:15, Rate: 20.4 cps, Current: 44, -39
+[18:29:53] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2589 chunks (39.46%), ETA: 0:03:16, Rate: 20.2 cps, Current: 45, -41
+[18:29:54] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2605 chunks (39.70%), ETA: 0:03:25, Rate: 19.3 cps, Current: 46, -40
+[18:29:55] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2630 chunks (40.09%), ETA: 0:03:18, Rate: 19.8 cps, Current: 48, -41
+[18:29:56] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2648 chunks (40.36%), ETA: 0:03:22, Rate: 19.4 cps, Current: 49, -38
+[18:29:58] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2675 chunks (40.77%), ETA: 0:03:20, Rate: 19.4 cps, Current: 51, -47
+[18:29:59] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2694 chunks (41.06%), ETA: 0:03:24, Rate: 18.9 cps, Current: 52, -41
+[18:30:00] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2718 chunks (41.43%), ETA: 0:03:20, Rate: 19.1 cps, Current: 54, -40
+[18:30:01] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2740 chunks (41.76%), ETA: 0:03:22, Rate: 18.8 cps, Current: 55, -42
+[18:30:02] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2753 chunks (41.96%), ETA: 0:03:21, Rate: 18.9 cps, Current: 56, -42
+[18:30:04] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2768 chunks (42.19%), ETA: 0:03:26, Rate: 18.4 cps, Current: 58, -40
+[18:30:05] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2802 chunks (42.71%), ETA: 0:03:18, Rate: 18.9 cps, Current: 60, -43
+[18:30:10] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2868 chunks (43.71%), ETA: 0:03:34, Rate: 17.2 cps, Current: 13, -46
+[18:30:12] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2916 chunks (44.44%), ETA: 0:03:21, Rate: 18.0 cps, Current: 15, -44
+[18:30:13] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2950 chunks (44.96%), ETA: 0:03:06, Rate: 19.3 cps, Current: 16, -35
+[18:30:14] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2960 chunks (45.12%), ETA: 0:03:11, Rate: 18.8 cps, Current: 18, -41
+[18:30:15] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3004 chunks (45.79%), ETA: 0:03:04, Rate: 19.3 cps, Current: 21, -40
+[18:30:16] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3028 chunks (46.15%), ETA: 0:03:03, Rate: 19.2 cps, Current: 23, -39
+[18:30:18] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3055 chunks (46.56%), ETA: 0:03:03, Rate: 19.1 cps, Current: 24, -41
+[18:30:19] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3098 chunks (47.22%), ETA: 0:02:56, Rate: 19.6 cps, Current: 27, -42
+[18:30:22] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3168 chunks (48.29%), ETA: 0:02:53, Rate: 19.6 cps, Current: 12, -32
+[18:30:24] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3169 chunks (48.30%), ETA: 0:03:00, Rate: 18.8 cps, Current: 12, -22
+[18:30:25] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3180 chunks (48.47%), ETA: 0:03:03, Rate: 18.4 cps, Current: 12, -20
+[18:30:27] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3218 chunks (49.05%), ETA: 0:02:59, Rate: 18.7 cps, Current: 13, -3
+[18:30:28] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3247 chunks (49.49%), ETA: 0:02:53, Rate: 19.1 cps, Current: 14, -13
+[18:30:29] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3272 chunks (49.87%), ETA: 0:02:51, Rate: 19.2 cps, Current: 15, -28
+[18:30:30] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3297 chunks (50.25%), ETA: 0:02:49, Rate: 19.3 cps, Current: 16, -9
+[18:30:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3344 chunks (50.97%), ETA: 0:02:39, Rate: 20.2 cps, Current: 17, -16
+[18:30:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3364 chunks (51.27%), ETA: 0:02:35, Rate: 20.6 cps, Current: 18, -29
+[18:30:33] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3392 chunks (51.70%), ETA: 0:02:30, Rate: 21.1 cps, Current: 19, -32
+[18:30:34] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3409 chunks (51.96%), ETA: 0:02:33, Rate: 20.6 cps, Current: 19, -15
+[18:30:36] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3442 chunks (52.46%), ETA: 0:02:17, Rate: 22.7 cps, Current: 20, -13
+[18:30:37] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3446 chunks (52.52%), ETA: 0:02:22, Rate: 21.8 cps, Current: 20, -6
+[18:30:38] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3490 chunks (53.19%), ETA: 0:02:17, Rate: 22.4 cps, Current: 22, -27
+[18:30:40] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3497 chunks (53.30%), ETA: 0:02:22, Rate: 21.5 cps, Current: 22, -16
+[18:30:41] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3528 chunks (53.77%), ETA: 0:02:23, Rate: 21.1 cps, Current: 23, -16
+[18:30:42] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3540 chunks (53.96%), ETA: 0:02:28, Rate: 20.3 cps, Current: 23, -12
+[18:30:43] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3543 chunks (54.00%), ETA: 0:02:31, Rate: 19.9 cps, Current: 23, -9
+[18:30:44] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3570 chunks (54.41%), ETA: 0:02:34, Rate: 19.4 cps, Current: 25, -32
+[18:30:46] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3591 chunks (54.73%), ETA: 0:02:35, Rate: 19.1 cps, Current: 25, -25
+[18:30:47] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3593 chunks (54.76%), ETA: 0:02:42, Rate: 18.3 cps, Current: 26, -31
+[18:30:48] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3636 chunks (55.42%), ETA: 0:02:41, Rate: 18.2 cps, Current: 26, -12
+[18:30:50] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3642 chunks (55.51%), ETA: 0:02:50, Rate: 17.1 cps, Current: 26, -7
+[18:30:52] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3702 chunks (56.42%), ETA: 0:02:36, Rate: 18.2 cps, Current: 28, -10
+[18:31:01] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3808 chunks (58.04%), ETA: 0:03:01, Rate: 15.2 cps, Current: 12, 6
+[18:31:02] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3848 chunks (58.65%), ETA: 0:02:52, Rate: 15.7 cps, Current: 13, 17
+[18:31:04] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3858 chunks (58.80%), ETA: 0:02:55, Rate: 15.4 cps, Current: 13, 23
+[18:31:06] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3908 chunks (59.56%), ETA: 0:02:49, Rate: 15.6 cps, Current: 15, 5
+[18:31:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3958 chunks (60.33%), ETA: 0:02:44, Rate: 15.9 cps, Current: 16, 23
+[18:31:10] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4008 chunks (61.09%), ETA: 0:02:28, Rate: 17.2 cps, Current: 18, 17
+[18:31:11] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4032 chunks (61.45%), ETA: 0:02:29, Rate: 16.9 cps, Current: 18, 31
+[18:31:12] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4058 chunks (61.85%), ETA: 0:02:19, Rate: 17.9 cps, Current: 20, 4
+[18:31:14] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4098 chunks (62.46%), ETA: 0:02:18, Rate: 17.8 cps, Current: 21, 8
+[18:31:15] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4116 chunks (62.73%), ETA: 0:02:16, Rate: 17.9 cps, Current: 22, 1
+[18:31:17] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4148 chunks (63.22%), ETA: 0:02:17, Rate: 17.6 cps, Current: 22, 22
+[18:31:24] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4189 chunks (63.85%), ETA: 0:02:18, Rate: 17.1 cps, Current: 24, 3
+[18:31:26] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4198 chunks (63.98%), ETA: 0:02:28, Rate: 15.9 cps, Current: 24, 19
+[18:31:27] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4235 chunks (64.55%), ETA: 0:02:18, Rate: 16.8 cps, Current: 25, 21
+[18:31:29] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4248 chunks (64.75%), ETA: 0:02:26, Rate: 15.7 cps, Current: 25, 27
+[18:31:30] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4281 chunks (65.25%), ETA: 0:02:19, Rate: 16.3 cps, Current: 26, 25
+[18:31:33] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4298 chunks (65.51%), ETA: 0:02:28, Rate: 15.2 cps, Current: 27, 13
+[18:31:36] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4348 chunks (66.27%), ETA: 0:02:41, Rate: 13.7 cps, Current: 29, 8
+[18:31:38] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4398 chunks (67.03%), ETA: 0:02:39, Rate: 13.5 cps, Current: 30, 19
+[18:31:42] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4448 chunks (67.79%), ETA: 0:02:40, Rate: 13.2 cps, Current: 32, 0
+[18:31:44] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4512 chunks (68.77%), ETA: 0:02:26, Rate: 14.0 cps, Current: 41, 1
+[18:31:45] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4524 chunks (68.95%), ETA: 0:02:27, Rate: 13.8 cps, Current: 45, 2
+[18:31:47] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4576 chunks (69.75%), ETA: 0:02:15, Rate: 14.6 cps, Current: 43, 9
+[18:31:48] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4593 chunks (70.00%), ETA: 0:01:57, Rate: 16.8 cps, Current: 42, 11
+[18:31:50] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4632 chunks (70.60%), ETA: 0:01:54, Rate: 16.8 cps, Current: 38, 12
+[18:31:53] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4704 chunks (71.70%), ETA: 0:01:45, Rate: 17.6 cps, Current: 32, 16
+[18:31:54] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4768 chunks (72.67%), ETA: 0:01:29, Rate: 20.0 cps, Current: 33, 24
+[18:31:56] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4797 chunks (73.11%), ETA: 0:01:27, Rate: 20.3 cps, Current: 36, 30
+[18:31:57] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4832 chunks (73.65%), ETA: 0:01:21, Rate: 21.2 cps, Current: 40, 25
+[18:31:58] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4841 chunks (73.78%), ETA: 0:01:24, Rate: 20.5 cps, Current: 42, 24
+[18:32:00] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4888 chunks (74.50%), ETA: 0:01:18, Rate: 21.3 cps, Current: 40, 20
+[18:32:03] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4960 chunks (75.60%), ETA: 0:01:10, Rate: 22.9 cps, Current: 49, 17
+[18:32:04] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4992 chunks (76.09%), ETA: 0:01:08, Rate: 23.0 cps, Current: 51, 20
+[18:32:07] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5024 chunks (76.57%), ETA: 0:01:09, Rate: 22.0 cps, Current: 48, 27
+[18:32:10] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5088 chunks (77.55%), ETA: 0:01:05, Rate: 22.5 cps, Current: 56, 28
+[18:32:14] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5144 chunks (78.40%), ETA: 0:01:06, Rate: 21.4 cps, Current: 59, 23
+[18:32:16] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5194 chunks (79.16%), ETA: 0:01:04, Rate: 21.1 cps, Current: 58, 17
+[18:32:17] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5240 chunks (79.87%), ETA: 0:00:59, Rate: 22.2 cps, Current: 62, 11
+[18:32:19] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5248 chunks (79.99%), ETA: 0:01:01, Rate: 21.5 cps, Current: 57, 14
+[18:32:21] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5312 chunks (80.96%), ETA: 0:00:57, Rate: 21.8 cps, Current: 50, 11
+[18:32:23] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5408 chunks (82.43%), ETA: 0:00:48, Rate: 23.8 cps, Current: 57, 2
+[18:32:24] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5464 chunks (83.28%), ETA: 0:00:46, Rate: 23.6 cps, Current: 60, 1
+[18:32:25] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5480 chunks (83.52%), ETA: 0:00:46, Rate: 23.2 cps, Current: 64, 6
+[18:32:26] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5516 chunks (84.07%), ETA: 0:00:44, Rate: 23.5 cps, Current: 65, 12
+[18:32:27] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5531 chunks (84.30%), ETA: 0:00:42, Rate: 24.0 cps, Current: 65, 29
+[18:32:28] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5562 chunks (84.77%), ETA: 0:00:41, Rate: 24.1 cps, Current: 66, 26
+[18:32:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5575 chunks (84.97%), ETA: 0:00:44, Rate: 22.2 cps, Current: 67, 5
+[18:32:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5599 chunks (85.34%), ETA: 0:00:43, Rate: 22.0 cps, Current: 68, 4
+[18:32:33] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5628 chunks (85.78%), ETA: 0:00:42, Rate: 22.0 cps, Current: 68, 28
+[18:32:34] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5655 chunks (86.19%), ETA: 0:00:39, Rate: 23.1 cps, Current: 70, 4
+[18:32:36] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5699 chunks (86.86%), ETA: 0:00:37, Rate: 23.0 cps, Current: 71, 5
+[18:32:37] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5743 chunks (87.53%), ETA: 0:00:34, Rate: 24.1 cps, Current: 72, 19
+[18:32:39] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5749 chunks (87.62%), ETA: 0:00:35, Rate: 23.2 cps, Current: 73, 3
+[18:32:41] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5799 chunks (88.39%), ETA: 0:00:31, Rate: 23.8 cps, Current: 75, 1
+[18:32:42] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5834 chunks (88.92%), ETA: 0:00:30, Rate: 24.2 cps, Current: 75, 9
+[18:32:44] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5849 chunks (89.15%), ETA: 0:00:30, Rate: 23.5 cps, Current: 75, 25
+[18:32:46] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5899 chunks (89.91%), ETA: 0:00:29, Rate: 22.8 cps, Current: 77, 23
+[18:32:49] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5949 chunks (90.67%), ETA: 0:00:25, Rate: 23.6 cps, Current: 79, 7
+[18:32:51] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5999 chunks (91.43%), ETA: 0:00:24, Rate: 23.3 cps, Current: 80, 18
+[18:32:52] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6048 chunks (92.18%), ETA: 0:00:23, Rate: 21.6 cps, Current: 82, 0
+[18:32:54] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6096 chunks (92.91%), ETA: 0:00:21, Rate: 21.4 cps, Current: 83, 16
+[18:32:55] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6142 chunks (93.61%), ETA: 0:00:18, Rate: 22.3 cps, Current: 84, 30
+[18:32:56] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6146 chunks (93.67%), ETA: 0:00:19, Rate: 21.1 cps, Current: 85, 2
+[18:32:58] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6194 chunks (94.41%), ETA: 0:00:16, Rate: 21.7 cps, Current: 86, 18
+[18:32:59] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6208 chunks (94.62%), ETA: 0:00:15, Rate: 22.9 cps, Current: 86, 30
+[18:33:00] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6246 chunks (95.20%), ETA: 0:00:13, Rate: 23.0 cps, Current: 88, 11
+[18:33:01] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6296 chunks (95.96%), ETA: 0:00:11, Rate: 23.9 cps, Current: 90, 3
+[18:33:03] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6344 chunks (96.69%), ETA: 0:00:08, Rate: 24.6 cps, Current: 91, 10
+[18:33:04] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6372 chunks (97.12%), ETA: 0:00:07, Rate: 24.6 cps, Current: 92, 12
+[18:33:05] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6397 chunks (97.50%), ETA: 0:00:06, Rate: 24.7 cps, Current: 92, 29
+[18:33:06] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6412 chunks (97.73%), ETA: 0:00:06, Rate: 24.3 cps, Current: 17, 32
+[18:33:07] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6448 chunks (98.28%), ETA: 0:00:04, Rate: 23.8 cps, Current: 36, 32
+[18:33:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6473 chunks (98.66%), ETA: 0:00:03, Rate: 24.6 cps, Current: 50, 33
+[18:33:10] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6496 chunks (99.01%), ETA: 0:00:02, Rate: 24.7 cps, Current: 60, 32
+[18:33:11] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6533 chunks (99.57%), ETA: 0:00:01, Rate: 25.2 cps, Current: 78, 32
+[18:33:11] [Server thread/INFO]: [Chunky] Task finished for minecraft:overworld. Processed: 6561 chunks (100.00%), Total time: 0:06:10
+[19:17:02] [BlueMap-FJP-0/INFO]: Reloading BlueMap...
+[19:17:02] [BlueMap-FJP-0/INFO]: Loading resources...
+[19:17:06] [BlueMap-FJP-0/INFO]: Resources loaded.
+[19:17:07] [BlueMap-FJP-0/INFO]: Initializing Storage: 'file' (Type: 'bluemap:file')
+[19:17:07] [BlueMap-FJP-0/INFO]: Loading map 'eus_2'...
+[19:17:07] [BlueMap-FJP-0/INFO]: Loading map 'eus_2_the_nether'...
+[19:17:08] [BlueMap-FJP-0/INFO]: Loading map 'eus_2_the_end'...
+[19:17:08] [BlueMap-FJP-0/INFO]: WebServer bound to all network interfaces on port 8100
+[19:17:08] [Thread-55/INFO]: WebServer started.
+[19:17:08] [BlueMap-FJP-0/INFO]: BlueMap reloaded!
+[19:18:39] [BlueMap-FJP-0/INFO]: Reloading BlueMap...
+[19:18:39] [BlueMap-FJP-0/INFO]: Loading resources...
+[19:18:43] [BlueMap-FJP-0/INFO]: Resources loaded.
+[19:18:43] [BlueMap-FJP-0/INFO]: Initializing Storage: 'file' (Type: 'bluemap:file')
+[19:18:43] [BlueMap-FJP-0/INFO]: Loading map 'eus_2'...
+[19:18:44] [BlueMap-FJP-0/INFO]: Loading map 'eus_2_the_nether'...
+[19:18:44] [BlueMap-FJP-0/INFO]: Loading map 'eus_2_the_end'...
+[19:18:44] [BlueMap-FJP-0/INFO]: WebServer bound to all network interfaces on port 8100
+[19:18:44] [Thread-66/INFO]: WebServer started.
+[19:18:44] [BlueMap-FJP-0/INFO]: BlueMap reloaded!
+[19:20:10] [BlueMap-FJP-0/INFO]: 
+BlueMap Maps >
+ ✔ eus_2
+ ✔ eus_2_the_nether
+ ✔ eus_2_the_end
+
+[19:20:25] [BlueMap-FJP-0/INFO]: 
+BlueMap Help >
+ Wiki: https://bluemap.bluecolored.de/wiki/
+ Discord: https://discord.gg/zmkyJa3
+
+[19:20:50] [BlueMap-FJP-0/INFO]: ⛏ Render-Threads are now running
+[19:20:56] [BlueMap-FJP-0/INFO]: 
+BlueMap Help >
+ Wiki: https://bluemap.bluecolored.de/wiki/
+ Discord: https://discord.gg/zmkyJa3
+
+[19:20:58] [BlueMap-FJP-0/INFO]: 
+BlueMap Maps >
+ ✔ eus_2
+ ✔ eus_2_the_nether
+ ✔ eus_2_the_end
+
+[19:23:59] [Server thread/INFO]: Stopping the server
+[19:23:59] [Server thread/INFO]: BlueMap unloaded!
+[19:23:59] [Server thread/INFO]: Shutting down Geyser.
+[19:23:59] [Server thread/INFO]: Geyser shutdown successfully.
+[19:23:59] [WebSocketConnectReadThread-173/INFO]: The skin uploader has been closed
+[19:24:01] [Server thread/INFO]: Stopping server
+[19:24:01] [Server thread/INFO]: Saving players
+[19:24:01] [Server thread/INFO]: Saving worlds
+[19:24:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[eus-2]'/minecraft:overworld
+[19:24:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[eus-2]'/minecraft:the_end
+[19:24:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[eus-2]'/minecraft:the_nether
+[19:24:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (eus-2): All chunks are saved
+[19:24:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:24:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:24:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:24:04] [Server thread/INFO]: Closing world gen queue
+[19:24:04] [Server thread/INFO]: Closing WorldGenerationQueue...
+[19:24:04] [Server thread/INFO]: Shutting down world generator thread pool...
+[19:24:04] [Server thread/INFO]: World generator thread pool shutdown with [0] incomplete tasks.
+[19:24:04] [Server thread/INFO]: [BatchGenerator] shutting down...
+[19:24:04] [Server thread/INFO]: Closing [BatchGenerationEnvironment]
+[19:24:04] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[19:24:04] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@overworld}].
+[19:24:04] [Server thread/INFO]: Closing world gen queue
+[19:24:04] [Server thread/INFO]: Closing WorldGenerationQueue...
+[19:24:04] [Server thread/INFO]: Shutting down world generator thread pool...
+[19:24:04] [Server thread/INFO]: World generator thread pool shutdown with [0] incomplete tasks.
+[19:24:04] [Server thread/INFO]: [BatchGenerator] shutting down...
+[19:24:04] [Server thread/INFO]: Closing [BatchGenerationEnvironment]
+[19:24:04] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[19:24:04] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@the_end}].
+[19:24:04] [Server thread/INFO]: Closing world gen queue
+[19:24:04] [Server thread/INFO]: Closing WorldGenerationQueue...
+[19:24:04] [Server thread/INFO]: Shutting down world generator thread pool...
+[19:24:04] [Server thread/INFO]: World generator thread pool shutdown with [0] incomplete tasks.
+[19:24:04] [Server thread/INFO]: [BatchGenerator] shutting down...
+[19:24:04] [Server thread/INFO]: Closing [BatchGenerationEnvironment]
+[19:24:04] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[19:24:04] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[eus-2]@minecraft@@the_nether}].
+[19:24:04] [Server thread/INFO]: Unloading addons...
+[19:24:04] [Server thread/INFO]: Unloaded addons
+[19:24:04] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[19:24:04] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[19:24:04] [Server thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[19:24:04] [Server thread/INFO]: Closing all [3] database connections...
+[19:24:04] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:.\eus-2\DIM1\data\DistantHorizons.sqlite]
+[19:24:04] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:.\eus-2\DIM-1\data\DistantHorizons.sqlite]
+[19:24:04] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:.\eus-2\data\DistantHorizons.sqlite]
