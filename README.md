@@ -1,15 +1,17 @@
 # EUScraft 2.0
-IP and Map: `euscraft.ca`
-Game version: `1.21.11 Java OR Bedrock`
+IP: `play.euscraft.ca`
+Map: `euscraft.ca`
+Game version: `1.21.11 Java`
 ## How to join
-You can join this sever using either a Java or Bedrock vanilla client, however this server does support the [distant horizons mod](https://modrinth.com/mod/distanthorizons) if you would like to use it.
-Simply create a new server profile, enter the IP: `euscraft.ca`, and press join! Lastly, make sure that **you are whitelisted** on the server before joining. If you need to be whitelisted, just send a message asking in this chat :)
+You can join this sever using either a Java client, however this server does support the distant horizons mod if you would like to use it. Additionaly, you will need to use the modflared mod to connect. I have created a guide on [youtube](https://youtu.be/tZ3Jkxcmqcw) for anyone that would like it.
+
+After installation, simply create a new server profile, enter the IP: `play.euscraft.ca`, and press join! Lastly, make sure that **you are whitelisted** on the server before joining. If you need to be whitelisted, just send a message asking in this chat :)
 ## Rules
 1. Be kind <3
 2. Update your nickname to something recognizable by others
 3. Mandatory cairn on all new builds
-4. No griefing, stealing, or looting other's build
-5. You must follow rule 2 to be protected by rule 3
+4. No griefing, stealing, or looting other's builds
+5. You must follow rule 3 to be protected by rule 4
 
 ## What's special?
 - 1250 block wide world
